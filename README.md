@@ -3,10 +3,10 @@
 > A curated record of my hands-on GitHub Skills practices, completed while preparing for the **GitHub Foundations** certification.
 
 [![GitHub Foundations](https://img.shields.io/badge/Preparing%20for-GitHub%20Foundations-181717?style=flat-square&logo=github)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
-[![Courses Completed](https://img.shields.io/badge/Practices%20Completed-6-2da44e?style=flat-square)](#completed-practices)
+[![Courses Completed](https://img.shields.io/badge/Practices%20Completed-9-2da44e?style=flat-square)](#completed-practices)
 [![Profile](https://img.shields.io/badge/GitHub-blackhebrewisraeli-181717?style=flat-square&logo=github)](https://github.com/blackhebrewisraeli)
 
-This repository is a single, organized home for the interactive [GitHub Skills](https://skills.github.com/) exercises I completed. Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Rather than leaving six near-identical practice repos scattered across my profile, I'm consolidating them here into one clear narrative of what I learned and where the proof lives.
+This repository is a single, organized home for the interactive [GitHub Skills](https://skills.github.com/) exercises I completed. Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Rather than leaving these near-identical practice repos scattered across my profile, I'm consolidating them here into one clear narrative of what I learned and where the proof lives.
 
 ---
 
@@ -20,6 +20,9 @@ This repository is a single, organized home for the interactive [GitHub Skills](
 | 4 | **GitHub Pages** | Publishing a site/blog straight from a repository. | [`skills-github-pages`](https://github.com/blackhebrewisraeli/skills-github-pages) |
 | 5 | **Resolve Merge Conflicts** | Understanding, triggering, and safely resolving conflicting changes. | [`skills-resolve-merge-conflicts`](https://github.com/blackhebrewisraeli/skills-resolve-merge-conflicts) |
 | 6 | **Code with Codespaces** | Developing in a cloud dev environment directly from a repo. | [`skills-code-with-codespaces`](https://github.com/blackhebrewisraeli/skills-code-with-codespaces) |
+| 7 | **Introduction to Repository Management** | Managing repository settings, access, branch protection, and maintenance. | [`skills-introduction-to-repository-management`](https://github.com/blackhebrewisraeli/skills-introduction-to-repository-management) |
+| 8 | **Secure your Repository Supply Chain** | Dependabot, dependency graph, and securing dependencies against vulnerabilities. | [`skills-secure-repository-supply-chain`](https://github.com/blackhebrewisraeli/skills-secure-repository-supply-chain) |
+| 9 | **Integrate MCP with GitHub Copilot** | Connecting Model Context Protocol (MCP) servers to extend GitHub Copilot. | [`skills-integrate-mcp-with-copilot`](https://github.com/blackhebrewisraeli/skills-integrate-mcp-with-copilot) |
 
 ---
 
@@ -29,6 +32,9 @@ This repository is a single, organized home for the interactive [GitHub Skills](
 - **Collaboration workflow** — pull requests, reviews, and resolving merge conflicts.
 - **Documentation** — clear, well-structured Markdown for issues, PRs, and READMEs.
 - **Publishing & automation** — GitHub Pages and cloud-based development with Codespaces.
+- **Repository management** — settings, access control, and branch protection.
+- **Supply chain security** — Dependabot, the dependency graph, and securing dependencies.
+- **AI tooling** — extending GitHub Copilot with Model Context Protocol (MCP) servers.
 - **The GitHub platform** — the day-to-day workflow expected of any modern engineer.
 
 ---
