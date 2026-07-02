@@ -7,20 +7,20 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2da44e,100:0969da&height=200&section=header&text=GitHub%20Skills%20Journey&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20hands-on%20logbook%20on%20the%20road%20to%20GitHub%20Foundations&descSize=16&descAlignY=60" alt="GitHub Skills Journey" width="100%" />
 
 <a href="#-table-of-contents">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=16+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=17+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
 </a>
 
 <br/>
 
 [![Preparing for GitHub Foundations](https://img.shields.io/badge/Preparing%20for-GitHub%20Foundations-181717?style=for-the-badge&logo=github)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
-[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-16-2da44e?style=for-the-badge)](#-the-practices)
+[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-17-2da44e?style=for-the-badge)](#-the-practices)
 [![Categories](https://img.shields.io/badge/Tracks-5-0969da?style=for-the-badge)](#-table-of-contents)
 
 </div>
 
 > [!NOTE]
 > This repository is a single, organized home for the interactive [**GitHub Skills**](https://skills.github.com/) exercises I completed.
-> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 16 near-identical
+> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 17 near-identical
 > practice repos scattered across my profile, I've consolidated them here into one clear story of *what* I learned and *where* the proof lives.
 
 ---
@@ -34,7 +34,7 @@
 | Page | Track | Practices |
 |:----:|:------|:---------:|
 | 1 | [🌱 Git &amp; GitHub Foundations](#-page-1--git--github-foundations) | `4` |
-| 2 | [🛡️ Repository Management &amp; Security](#-page-2--repository-management--security) | `3` |
+| 2 | [🛡️ Repository Management &amp; Security](#-page-2--repository-management--security) | `4` |
 | 3 | [⚙️ Automation with GitHub Actions](#-page-3--automation-with-github-actions) | `4` |
 | 4 | [☁️ Dev Environments &amp; Publishing](#-page-4--dev-environments--publishing) | `2` |
 | 5 | [🤖 AI, Copilot &amp; Agents](#-page-5--ai-copilot--agents) | `3` |
@@ -46,7 +46,7 @@
 
 **Progress**
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **16 practices logged across 5 tracks**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **17 practices logged across 5 tracks**
 
 </div>
 
@@ -85,7 +85,7 @@
 ### 🛡️ Page 2 · Repository Management &amp; Security
 
 <details>
-<summary><b>📂 Keeping repositories healthy and safe &nbsp;·&nbsp; <code>3 practices</code></b></summary>
+<summary><b>📂 Keeping repositories healthy and safe &nbsp;·&nbsp; <code>4 practices</code></b></summary>
 
 <br/>
 
@@ -94,6 +94,7 @@
 | **Introduction to Repository Management** | Managing repository settings, access, branch protection, and maintenance. | [`skills-introduction-to-repository-management`](https://github.com/blackhebrewisraeli/skills-introduction-to-repository-management) |
 | **Secure your Repository Supply Chain** | Dependabot, the dependency graph, and securing dependencies against vulnerabilities. | [`skills-secure-repository-supply-chain`](https://github.com/blackhebrewisraeli/skills-secure-repository-supply-chain) |
 | **Introduction to Secret Scanning** | Detecting exposed secrets in repositories and responding to leaked credentials. | [`skills-introduction-to-secret-scanning`](https://github.com/blackhebrewisraeli/skills-introduction-to-secret-scanning) |
+| **Introduction to CodeQL** | Static analysis with CodeQL to find vulnerabilities and security issues in code. | [`skills-introduction-to-codeql`](https://github.com/blackhebrewisraeli/skills-introduction-to-codeql) |
 
 </details>
 
@@ -170,6 +171,7 @@
 - Dependabot &amp; the dependency graph
 - Securing the software supply chain
 - Secret scanning &amp; credential leak prevention
+- CodeQL static analysis &amp; code scanning
 
 </td>
 <td valign="top" width="50%">
