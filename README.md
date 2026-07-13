@@ -7,20 +7,21 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2da44e,100:0969da&height=200&section=header&text=GitHub%20Skills%20Journey&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20hands-on%20logbook%20on%20the%20road%20to%20GitHub%20Foundations&descSize=16&descAlignY=60" alt="GitHub Skills Journey" width="100%" />
 
 <a href="#-table-of-contents">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=17+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=18+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
 </a>
 
 <br/>
 
 [![Preparing for GitHub Foundations](https://img.shields.io/badge/Preparing%20for-GitHub%20Foundations-181717?style=for-the-badge&logo=github)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
-[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-17-2da44e?style=for-the-badge)](#-the-practices)
+[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-18-2da44e?style=for-the-badge)](#-the-practices)
+[![Roadmap](https://img.shields.io/badge/Next%20Up-See%20Roadmap-0969da?style=for-the-badge)](ROADMAP.md)
 [![Categories](https://img.shields.io/badge/Tracks-5-0969da?style=for-the-badge)](#-table-of-contents)
 
 </div>
 
 > [!NOTE]
 > This repository is a single, organized home for the interactive [**GitHub Skills**](https://skills.github.com/) exercises I completed.
-> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 17 near-identical
+> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 18 near-identical
 > practice repos scattered across my profile, I've consolidated them here into one clear story of *what* I learned and *where* the proof lives.
 
 ---
@@ -33,11 +34,12 @@
 
 | Page | Track | Practices |
 |:----:|:------|:---------:|
-| 1 | [🌱 Git &amp; GitHub Foundations](#-page-1--git--github-foundations) | `4` |
+| 1 | [🌱 Git &amp; GitHub Foundations](#-page-1--git--github-foundations) | `5` |
 | 2 | [🛡️ Repository Management &amp; Security](#-page-2--repository-management--security) | `4` |
 | 3 | [⚙️ Automation with GitHub Actions](#-page-3--automation-with-github-actions) | `4` |
 | 4 | [☁️ Dev Environments &amp; Publishing](#-page-4--dev-environments--publishing) | `2` |
 | 5 | [🤖 AI, Copilot &amp; Agents](#-page-5--ai-copilot--agents) | `3` |
+| — | [🗺️ Learning Roadmap](#%EF%B8%8F-learning-roadmap) | — |
 | — | [🧠 Skills Demonstrated](#-skills-demonstrated) | — |
 | — | [🎯 Why a Certification?](#-why-a-certification) | — |
 | — | [🚀 Beyond the Practices](#-beyond-the-practices) | — |
@@ -46,7 +48,7 @@
 
 **Progress**
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **17 practices logged across 5 tracks**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **18 practices logged across 5 tracks**
 
 </div>
 
@@ -67,7 +69,7 @@
 ### 🌱 Page 1 · Git &amp; GitHub Foundations
 
 <details open>
-<summary><b>📂 The core workflow every developer needs &nbsp;·&nbsp; <code>4 practices</code></b></summary>
+<summary><b>📂 The core workflow every developer needs &nbsp;·&nbsp; <code>5 practices</code></b></summary>
 
 <br/>
 
@@ -76,6 +78,7 @@
 | **Introduction to GitHub** | Repositories, branches, commits, and pull requests — the core GitHub workflow. | [`skills-introduction-to-github`](https://github.com/blackhebrewisraeli/skills-introduction-to-github) |
 | **Introduction to Git** | Cloning, staging, committing, and pushing from the command line. | [`skills-introduction-to-git`](https://github.com/blackhebrewisraeli/skills-introduction-to-git) |
 | **Communicate using Markdown** | Formatting issues, PRs, and docs with headings, lists, links, tables, and code blocks. | [`skills-communicate-using-markdown`](https://github.com/blackhebrewisraeli/skills-communicate-using-markdown) |
+| **Review Pull Requests** | Assigning reviewers, leaving comments, suggesting changes, approving, and merging. | [`skills-review-pull-requests`](https://github.com/blackhebrewisraeli/skills-review-pull-requests) |
 | **Resolve Merge Conflicts** | Understanding, triggering, and safely resolving conflicting changes. | [`skills-resolve-merge-conflicts`](https://github.com/blackhebrewisraeli/skills-resolve-merge-conflicts) |
 
 </details>
@@ -163,7 +166,8 @@
 
 **🌱 Fundamentals**
 - Branching, committing, merging &amp; clean history
-- Pull requests, reviews &amp; conflict resolution
+- Pull requests, code review, suggestions &amp; approvals
+- Conflict resolution on merge
 - Clear, well-structured Markdown
 
 **🛡️ Management &amp; Security**
@@ -196,6 +200,36 @@
 ☁️ **Dev environments &amp; publishing** — Codespaces &nbsp;·&nbsp; GitHub Pages
 
 </div>
+
+---
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║                      LEARNING ROADMAP                         ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+
+## 🗺️ Learning Roadmap
+
+> **18 logged** · next targets and full plan in **[ROADMAP.md](ROADMAP.md)**
+
+| Phase | Focus | Next up |
+|:-----:|:------|:--------|
+| **A** | Collaboration &amp; Git depth | [Connect the dots](https://github.com/skills/connect-the-dots) → [Release-based workflow](https://github.com/skills/release-based-workflow) → [Change commit history](https://github.com/skills/change-commit-history) |
+| **B** | Security completion | [Configure CodeQL matrix](https://github.com/skills/configure-codeql-language-matrix) → [Secure Code Game](https://github.com/skills/secure-code-game) |
+| **C** | Actions backlog *(done, not logged yet)* | Test with Actions · Publish Docker Images |
+| **D** | Copilot polish | Getting started with Copilot → Copilot code review → Customize Copilot |
+
+<details>
+<summary><b>📋 Quick start — how to run the next practice</b></summary>
+
+<br/>
+
+1. Open the course at [skills.github.com](https://skills.github.com/) or the `@skills` repo link in [ROADMAP.md](ROADMAP.md).
+2. Click **Use this template** → create a **public** repo (saves Pro Actions minutes).
+3. Wait ~20 seconds, then check the **Issues** tab for Mona's Step 1.
+4. Complete each step; close issues as you finish.
+5. Tell me when done — I'll add the repo here and bump the count.
+
+</details>
 
 ---
 
