@@ -1,7 +1,7 @@
 # 🗺️ GitHub Skills Learning Roadmap
 
 > Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 18 · **Last updated:** Review pull requests added
+> **Account:** GitHub Pro · **Logged practices:** 19 · **Last updated:** Connect the dots added
 
 ---
 
@@ -9,15 +9,14 @@
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 18]
-        F[Fundamentals ×5]
+    subgraph done [Completed — 19]
+        F[Fundamentals ×6]
         S[Security ×4]
         A[Actions ×4]
         D[Dev/Publish ×2]
         C[Copilot/AI ×3]
     end
-    subgraph next [Phase A — Next 3]
-        N1[Connect the dots]
+    subgraph next [Phase A — remaining]
         N2[Release workflow]
         N3[Change commit history]
     end
@@ -31,7 +30,7 @@ flowchart LR
 
 | Track | Logged | Your repos (incl. not yet logged) |
 |:------|:------:|:----------------------------------|
-| 🌱 Fundamentals | 5 | +0 pending |
+| 🌱 Fundamentals | 6 | +0 pending |
 | 🛡️ Security | 4 | +0 pending |
 | ⚙️ Automation | 4 | **+2 done** (`test-with-actions`, `publish-docker-images`) |
 | ☁️ Dev & Publishing | 2 | +0 pending |
@@ -53,15 +52,15 @@ flowchart LR
 
 ---
 
-## Phase A — Collaboration & Git depth *(do these next)*
+## Phase A — Collaboration & Git depth *(in progress)*
 
 **Goal:** Finish core collaboration + Git topics tested heavily on Foundations.
 
-| Order | Practice | Duration | Start here | Why now |
-|:-----:|:---------|:--------:|:-----------|:--------|
-| **1** | [Connect the dots](https://github.com/skills/connect-the-dots) | ~30 min | [Start →](https://github.com/skills/connect-the-dots) | Links issues, PRs, and commits — maintainer workflow |
-| **2** | [Release-based workflow](https://github.com/skills/release-based-workflow) | ~45 min | [Start →](https://github.com/skills/release-based-workflow) | Tags, versions, releases — professional repo hygiene |
-| **3** | [Change commit history](https://github.com/skills/change-commit-history) | ~45 min | [Start →](https://github.com/skills/change-commit-history) | Amend, rebase, squash — Git exam essentials |
+| Order | Practice | Duration | Status |
+|:-----:|:---------|:--------:|:-------|
+| ~~**1**~~ | ~~[Connect the dots](https://github.com/skills/connect-the-dots)~~ | ~30 min | ✅ [`skills-connect-the-dots`](https://github.com/blackhebrewisraeli/skills-connect-the-dots) |
+| **2** | [Release-based workflow](https://github.com/skills/release-based-workflow) | ~45 min | **→ Next** · [Start](https://github.com/skills/release-based-workflow) |
+| **3** | [Change commit history](https://github.com/skills/change-commit-history) | ~45 min | [Start →](https://github.com/skills/change-commit-history) |
 
 **After Phase A:** 21 practices logged · Fundamentals track nearly complete.
 
@@ -133,7 +132,7 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 
 | Week | Target | Practices |
 |:----:|:-------|:----------|
-| **1** | Phase A | Connect the dots · Release workflow · Change commit history |
+| **1** | Phase A | ~~Connect the dots ✓~~ · Release workflow · Change commit history |
 | **2** | Phase B + log C | CodeQL matrix · Secure Code Game · log Test + Docker |
 | **3** | Phase D | Getting started Copilot · Copilot code review · Customize |
 | **4** | Optional | AI in Actions · Deploy to Azure · exam review |
@@ -155,7 +154,7 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 
 ```
 Phase A
-[ ] Connect the dots
+[x] Connect the dots
 [ ] Release-based workflow
 [ ] Change commit history
 
