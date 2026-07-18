@@ -1,7 +1,7 @@
 # 🗺️ GitHub Skills Learning Roadmap
 
 > Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 21 · **Last updated:** Configure CodeQL language matrix added
+> **Account:** GitHub Pro · **Logged practices:** 22 · **Last updated:** Release-based workflow added
 
 ---
 
@@ -9,18 +9,17 @@
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 21]
-        F[Fundamentals ×7]
+    subgraph done [Completed — 22]
+        F[Fundamentals ×8]
         S[Security ×5]
         A[Actions ×4]
         D[Dev/Publish ×2]
         C[Copilot/AI ×3]
     end
-    subgraph next [Phase A — remaining]
-        N2[Release workflow]
+    subgraph next [Phase B — next]
+        B2[Secure Code Game]
     end
-    subgraph later [Phase B–D]
-        B[Security finish]
+    subgraph later [Phase C–D]
         AB[Actions backlog]
         CP[Copilot polish]
     end
@@ -29,7 +28,7 @@ flowchart LR
 
 | Track | Logged | Your repos (incl. not yet logged) |
 |:------|:------:|:----------------------------------|
-| 🌱 Fundamentals | 7 | +0 pending |
+| 🌱 Fundamentals | 8 | +0 pending |
 | 🛡️ Security | 5 | +0 pending |
 | ⚙️ Automation | 4 | **+2 done** (`test-with-actions`, `publish-docker-images`) |
 | ☁️ Dev & Publishing | 2 | +0 pending |
@@ -51,17 +50,17 @@ flowchart LR
 
 ---
 
-## Phase A — Collaboration & Git depth *(in progress)*
+## Phase A — Collaboration & Git depth *(complete)*
 
 **Goal:** Finish core collaboration + Git topics tested heavily on Foundations.
 
 | Order | Practice | Duration | Status |
 |:-----:|:---------|:--------:|:-------|
 | ~~**1**~~ | ~~[Connect the dots](https://github.com/skills/connect-the-dots)~~ | ~30 min | ✅ [`skills-connect-the-dots`](https://github.com/blackhebrewisraeli/skills-connect-the-dots) |
-| **2** | [Release-based workflow](https://github.com/skills/release-based-workflow) | ~45 min | **→ Next** · [Start](https://github.com/skills/release-based-workflow) |
+| ~~**2**~~ | ~~[Release-based workflow](https://github.com/skills/release-based-workflow)~~ | ~45 min | ✅ [`skills-release-based-workflow`](https://github.com/blackhebrewisraeli/skills-release-based-workflow) |
 | ~~**3**~~ | ~~[Change commit history](https://github.com/skills/change-commit-history)~~ | ~45 min | ✅ [`skills-change-commit-history`](https://github.com/blackhebrewisraeli/skills-change-commit-history) |
 
-**After Phase A:** 22 practices logged once Release workflow is done.
+**Phase A complete:** 22 practices logged.
 
 ---
 
@@ -131,8 +130,8 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 
 | Week | Target | Practices |
 |:----:|:-------|:----------|
-| **1** | Phase A | ~~Connect the dots ✓~~ · **Release workflow** · ~~Change commit history ✓~~ |
-| **2** | Phase B + log C | CodeQL matrix · Secure Code Game · log Test + Docker |
+| **1** | Phase A | ~~Connect the dots ✓~~ · ~~Release workflow ✓~~ · ~~Change commit history ✓~~ |
+| **2** | Phase B + log C | ~~CodeQL matrix ✓~~ · **Secure Code Game** · log Test + Docker |
 | **3** | Phase D | Getting started Copilot · Copilot code review · Customize |
 | **4** | Optional | AI in Actions · Deploy to Azure · exam review |
 
@@ -154,7 +153,7 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 ```
 Phase A
 [x] Connect the dots
-[ ] Release-based workflow
+[x] Release-based workflow
 [x] Change commit history
 
 Phase B

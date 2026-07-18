@@ -7,13 +7,13 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2da44e,100:0969da&height=200&section=header&text=GitHub%20Skills%20Journey&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20hands-on%20logbook%20on%20the%20road%20to%20GitHub%20Foundations&descSize=16&descAlignY=60" alt="GitHub Skills Journey" width="100%" />
 
 <a href="#-table-of-contents">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=21+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=22+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
 </a>
 
 <br/>
 
 [![Preparing for GitHub Foundations](https://img.shields.io/badge/Preparing%20for-GitHub%20Foundations-181717?style=for-the-badge&logo=github)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
-[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-21-2da44e?style=for-the-badge)](#-the-practices)
+[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-22-2da44e?style=for-the-badge)](#-the-practices)
 [![Roadmap](https://img.shields.io/badge/Next%20Up-See%20Roadmap-0969da?style=for-the-badge)](ROADMAP.md)
 [![Categories](https://img.shields.io/badge/Tracks-5-0969da?style=for-the-badge)](#-table-of-contents)
 
@@ -21,7 +21,7 @@
 
 > [!NOTE]
 > This repository is a single, organized home for the interactive [**GitHub Skills**](https://skills.github.com/) exercises I completed.
-> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 21 near-identical
+> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 22 near-identical
 > practice repos scattered across my profile, I've consolidated them here into one clear story of *what* I learned and *where* the proof lives.
 
 ---
@@ -34,7 +34,7 @@
 
 | Page | Track | Practices |
 |:----:|:------|:---------:|
-| 1 | [🌱 Git &amp; GitHub Foundations](#-page-1--git--github-foundations) | `7` |
+| 1 | [🌱 Git &amp; GitHub Foundations](#-page-1--git--github-foundations) | `8` |
 | 2 | [🛡️ Repository Management &amp; Security](#-page-2--repository-management--security) | `5` |
 | 3 | [⚙️ Automation with GitHub Actions](#-page-3--automation-with-github-actions) | `4` |
 | 4 | [☁️ Dev Environments &amp; Publishing](#-page-4--dev-environments--publishing) | `2` |
@@ -48,7 +48,7 @@
 
 **Progress**
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **21 practices logged across 5 tracks**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **22 practices logged across 5 tracks**
 
 </div>
 
@@ -69,7 +69,7 @@
 ### 🌱 Page 1 · Git &amp; GitHub Foundations
 
 <details open>
-<summary><b>📂 The core workflow every developer needs &nbsp;·&nbsp; <code>7 practices</code></b></summary>
+<summary><b>📂 The core workflow every developer needs &nbsp;·&nbsp; <code>8 practices</code></b></summary>
 
 <br/>
 
@@ -81,6 +81,7 @@
 | **Communicate using Markdown** | Formatting issues, PRs, and docs with headings, lists, links, tables, and code blocks. | [`skills-communicate-using-markdown`](https://github.com/blackhebrewisraeli/skills-communicate-using-markdown) |
 | **Review Pull Requests** | Assigning reviewers, leaving comments, suggesting changes, approving, and merging. | [`skills-review-pull-requests`](https://github.com/blackhebrewisraeli/skills-review-pull-requests) |
 | **Connect the Dots** | Cross-referencing issues, pull requests, and commits with keywords and links. | [`skills-connect-the-dots`](https://github.com/blackhebrewisraeli/skills-connect-the-dots) |
+| **Release-based Workflow** | Creating releases, tagging versions, and automating release workflows on GitHub. | [`skills-release-based-workflow`](https://github.com/blackhebrewisraeli/skills-release-based-workflow) |
 | **Resolve Merge Conflicts** | Understanding, triggering, and safely resolving conflicting changes. | [`skills-resolve-merge-conflicts`](https://github.com/blackhebrewisraeli/skills-resolve-merge-conflicts) |
 
 </details>
@@ -172,6 +173,7 @@
 - Amending, rebasing &amp; squashing commits
 - Pull requests, code review, suggestions &amp; approvals
 - Linking issues, PRs &amp; commits (<code>#</code> refs, keywords)
+- Releases, tags &amp; release-based workflows
 - Conflict resolution on merge
 - Clear, well-structured Markdown
 
@@ -215,11 +217,11 @@
 
 ## 🗺️ Learning Roadmap
 
-> **21 logged** · next targets and full plan in **[ROADMAP.md](ROADMAP.md)**
+> **22 logged** · next targets and full plan in **[ROADMAP.md](ROADMAP.md)**
 
 | Phase | Focus | Next up |
 |:-----:|:------|:--------|
-| **A** | Collaboration &amp; Git depth | [Release-based workflow](https://github.com/skills/release-based-workflow) *(only one left in Phase A)* |
+| **A** | Collaboration &amp; Git depth | ~~Release-based workflow ✓~~ — **Phase A complete** |
 | **B** | Security completion | ~~CodeQL matrix ✓~~ → [Secure Code Game](https://github.com/skills/secure-code-game) |
 | **C** | Actions backlog *(done, not logged yet)* | Test with Actions · Publish Docker Images |
 | **D** | Copilot polish | Getting started with Copilot → Copilot code review → Customize Copilot |
