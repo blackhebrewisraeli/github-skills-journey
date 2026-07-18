@@ -1,7 +1,7 @@
 # 🗺️ GitHub Skills Learning Roadmap
 
 > Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 20 · **Last updated:** Change commit history added
+> **Account:** GitHub Pro · **Logged practices:** 21 · **Last updated:** Configure CodeQL language matrix added
 
 ---
 
@@ -9,9 +9,9 @@
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 20]
+    subgraph done [Completed — 21]
         F[Fundamentals ×7]
-        S[Security ×4]
+        S[Security ×5]
         A[Actions ×4]
         D[Dev/Publish ×2]
         C[Copilot/AI ×3]
@@ -30,7 +30,7 @@ flowchart LR
 | Track | Logged | Your repos (incl. not yet logged) |
 |:------|:------:|:----------------------------------|
 | 🌱 Fundamentals | 7 | +0 pending |
-| 🛡️ Security | 4 | +0 pending |
+| 🛡️ Security | 5 | +0 pending |
 | ⚙️ Automation | 4 | **+2 done** (`test-with-actions`, `publish-docker-images`) |
 | ☁️ Dev & Publishing | 2 | +0 pending |
 | 🤖 Copilot & AI | 3 | +1 done (`agentic-workflows…`, excluded from log) |
@@ -61,7 +61,7 @@ flowchart LR
 | **2** | [Release-based workflow](https://github.com/skills/release-based-workflow) | ~45 min | **→ Next** · [Start](https://github.com/skills/release-based-workflow) |
 | ~~**3**~~ | ~~[Change commit history](https://github.com/skills/change-commit-history)~~ | ~45 min | ✅ [`skills-change-commit-history`](https://github.com/blackhebrewisraeli/skills-change-commit-history) |
 
-**After Phase A:** 21 practices logged once Release workflow is done.
+**After Phase A:** 22 practices logged once Release workflow is done.
 
 ---
 
@@ -71,8 +71,8 @@ flowchart LR
 
 | Order | Practice | Duration | Start here | Prerequisite |
 |:-----:|:---------|:--------:|:-----------|:-------------|
-| **4** | [Configure CodeQL language matrix](https://github.com/skills/configure-codeql-language-matrix) | ~30 min | [Start →](https://github.com/skills/configure-codeql-language-matrix) | Introduction to CodeQL ✓ |
-| **5** | [Secure Code Game](https://github.com/skills/secure-code-game) | ~1–2 hr | [Start →](https://github.com/skills/secure-code-game) | None — browser game, no extra subscription |
+| ~~**4**~~ | ~~[Configure CodeQL language matrix](https://github.com/skills/configure-codeql-language-matrix)~~ | ~30 min | ✅ [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) | Introduction to CodeQL ✓ |
+| **5** | [Secure Code Game](https://github.com/skills/secure-code-game) | ~1–2 hr | **→ Next** · [Start →](https://github.com/skills/secure-code-game) | None — browser game, no extra subscription |
 
 **After Phase B:** 23 practices logged · Security track complete.
 
@@ -158,7 +158,7 @@ Phase A
 [x] Change commit history
 
 Phase B
-[ ] Configure CodeQL language matrix
+[x] Configure CodeQL language matrix
 [ ] Secure Code Game
 
 Phase C (log existing repos)
