@@ -1,7 +1,7 @@
 # 🗺️ GitHub Skills Learning Roadmap
 
 > Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 23 · **Last updated:** Secure Code Game added — Phase B complete
+> **Account:** GitHub Pro · **Logged practices:** 24 · **Last updated:** Getting started with GitHub Copilot added
 
 ---
 
@@ -9,18 +9,19 @@
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 23]
+    subgraph done [Completed — 24]
         F[Fundamentals ×8]
         S[Security ×6]
         A[Actions ×4]
         D[Dev/Publish ×2]
-        C[Copilot/AI ×3]
+        C[Copilot/AI ×4]
     end
-    subgraph next [Phase C — next]
+    subgraph next [Phase D — next]
+        CR[Copilot code review]
+    end
+    subgraph later [Also available]
         AB[Log Actions backlog]
-    end
-    subgraph later [Phase D]
-        CP[Copilot polish]
+        CP[Customize Copilot]
     end
     done --> next --> later
 ```
@@ -31,7 +32,7 @@ flowchart LR
 | 🛡️ Security | 6 | +0 pending |
 | ⚙️ Automation | 4 | **+2 done** (`test-with-actions`, `publish-docker-images`) |
 | ☁️ Dev & Publishing | 2 | +0 pending |
-| 🤖 Copilot & AI | 3 | +1 done (`agentic-workflows…`, excluded from log) |
+| 🤖 Copilot & AI | 4 | +1 done (`agentic-workflows…`, excluded from log) |
 
 ---
 
@@ -72,11 +73,11 @@ flowchart LR
 | ~~**4**~~ | ~~[Configure CodeQL language matrix](https://github.com/skills/configure-codeql-language-matrix)~~ | ~30 min | ✅ [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) |
 | ~~**5**~~ | ~~[Secure Code Game](https://github.com/skills/secure-code-game)~~ | ~1–2 hr | ✅ [`skills-secure-code-game`](https://github.com/blackhebrewisraeli/skills-secure-code-game) |
 
-**Phase B complete:** 23 practices logged · Security track complete.
+**Phase B complete.**
 
 ---
 
-## Phase C — Actions backlog *(already finished — log when ready)* ← **NEXT**
+## Phase C — Actions backlog *(already finished — log when ready)*
 
 These repos **exist on your account** but are **not in README yet**. Add them in one batch:
 
@@ -91,18 +92,18 @@ These repos **exist on your account** but are **not in README yet**. Add them in
 |:-----:|:---------|:-----------|
 | **6** | [AI in Actions](https://github.com/skills/ai-in-actions) | [Start →](https://github.com/skills/ai-in-actions) |
 
-**After Phase C logging:** 25 practices logged · Automation track → 6–7 practices.
+**After Phase C logging:** +2 → Automation track → 6 practices.
 
 ---
 
-## Phase D — Copilot polish *(requires active Copilot)*
+## Phase D — Copilot polish *(requires active Copilot)* ← **NEXT**
 
 You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 
-| Order | Practice | Duration | Start here |
-|:-----:|:---------|:--------:|:-----------|
-| **7** | [Getting started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot) | ~30 min | [Start →](https://github.com/skills/getting-started-with-github-copilot) |
-| **8** | [Copilot code review](https://github.com/skills/copilot-code-review) | ~30 min | [Start →](https://github.com/skills/copilot-code-review) |
+| Order | Practice | Duration | Status |
+|:-----:|:---------|:--------:|:-------|
+| ~~**7**~~ | ~~[Getting started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)~~ | ~30 min | ✅ [`skills-getting-started-with-github-copilot`](https://github.com/blackhebrewisraeli/skills-getting-started-with-github-copilot) |
+| **8** | [Copilot code review](https://github.com/skills/copilot-code-review) | ~30 min | **→ Next** · [Start →](https://github.com/skills/copilot-code-review) |
 | **9** | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | ~45 min | [Start →](https://github.com/skills/customize-your-github-copilot-experience) |
 
 **Optional stretch:**
@@ -131,7 +132,7 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 |:----:|:-------|:----------|
 | **1** | Phase A | ~~Connect the dots ✓~~ · ~~Release workflow ✓~~ · ~~Change commit history ✓~~ |
 | **2** | Phase B + log C | ~~CodeQL matrix ✓~~ · ~~Secure Code Game ✓~~ · **log Test + Docker** |
-| **3** | Phase D | Getting started Copilot · Copilot code review · Customize |
+| **3** | Phase D | ~~Getting started Copilot ✓~~ · **Copilot code review** · Customize |
 | **4** | Optional | AI in Actions · Deploy to Azure · exam review |
 
 ~3 practices/week → **Foundations-ready portfolio in ~4 weeks**.
@@ -165,7 +166,7 @@ Phase C (log existing repos)
 [ ] (optional) AI in Actions
 
 Phase D
-[ ] Getting started with GitHub Copilot
+[x] Getting started with GitHub Copilot
 [ ] Copilot code review
 [ ] Customize GitHub Copilot experience
 ```
