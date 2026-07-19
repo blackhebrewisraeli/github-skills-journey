@@ -1,7 +1,7 @@
 # 🗺️ GitHub Skills Learning Roadmap
 
 > Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 22 · **Last updated:** Release-based workflow added
+> **Account:** GitHub Pro · **Logged practices:** 23 · **Last updated:** Secure Code Game added — Phase B complete
 
 ---
 
@@ -9,18 +9,17 @@
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 22]
+    subgraph done [Completed — 23]
         F[Fundamentals ×8]
-        S[Security ×5]
+        S[Security ×6]
         A[Actions ×4]
         D[Dev/Publish ×2]
         C[Copilot/AI ×3]
     end
-    subgraph next [Phase B — next]
-        B2[Secure Code Game]
+    subgraph next [Phase C — next]
+        AB[Log Actions backlog]
     end
-    subgraph later [Phase C–D]
-        AB[Actions backlog]
+    subgraph later [Phase D]
         CP[Copilot polish]
     end
     done --> next --> later
@@ -29,7 +28,7 @@ flowchart LR
 | Track | Logged | Your repos (incl. not yet logged) |
 |:------|:------:|:----------------------------------|
 | 🌱 Fundamentals | 8 | +0 pending |
-| 🛡️ Security | 5 | +0 pending |
+| 🛡️ Security | 6 | +0 pending |
 | ⚙️ Automation | 4 | **+2 done** (`test-with-actions`, `publish-docker-images`) |
 | ☁️ Dev & Publishing | 2 | +0 pending |
 | 🤖 Copilot & AI | 3 | +1 done (`agentic-workflows…`, excluded from log) |
@@ -60,24 +59,24 @@ flowchart LR
 | ~~**2**~~ | ~~[Release-based workflow](https://github.com/skills/release-based-workflow)~~ | ~45 min | ✅ [`skills-release-based-workflow`](https://github.com/blackhebrewisraeli/skills-release-based-workflow) |
 | ~~**3**~~ | ~~[Change commit history](https://github.com/skills/change-commit-history)~~ | ~45 min | ✅ [`skills-change-commit-history`](https://github.com/blackhebrewisraeli/skills-change-commit-history) |
 
-**Phase A complete:** 22 practices logged.
+**Phase A complete.**
 
 ---
 
-## Phase B — Security track completion
+## Phase B — Security track completion *(complete)*
 
-**Goal:** Close out the security path you started (supply chain → secrets → CodeQL).
+**Goal:** Close out the security path you started (supply chain → secrets → CodeQL → secure coding).
 
-| Order | Practice | Duration | Start here | Prerequisite |
-|:-----:|:---------|:--------:|:-----------|:-------------|
-| ~~**4**~~ | ~~[Configure CodeQL language matrix](https://github.com/skills/configure-codeql-language-matrix)~~ | ~30 min | ✅ [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) | Introduction to CodeQL ✓ |
-| **5** | [Secure Code Game](https://github.com/skills/secure-code-game) | ~1–2 hr | **→ Next** · [Start →](https://github.com/skills/secure-code-game) | None — browser game, no extra subscription |
+| Order | Practice | Duration | Status |
+|:-----:|:---------|:--------:|:-------|
+| ~~**4**~~ | ~~[Configure CodeQL language matrix](https://github.com/skills/configure-codeql-language-matrix)~~ | ~30 min | ✅ [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) |
+| ~~**5**~~ | ~~[Secure Code Game](https://github.com/skills/secure-code-game)~~ | ~1–2 hr | ✅ [`skills-secure-code-game`](https://github.com/blackhebrewisraeli/skills-secure-code-game) |
 
-**After Phase B:** 23 practices logged · Security track complete.
+**Phase B complete:** 23 practices logged · Security track complete.
 
 ---
 
-## Phase C — Actions backlog *(already finished — log when ready)*
+## Phase C — Actions backlog *(already finished — log when ready)* ← **NEXT**
 
 These repos **exist on your account** but are **not in README yet**. Add them in one batch:
 
@@ -131,7 +130,7 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 | Week | Target | Practices |
 |:----:|:-------|:----------|
 | **1** | Phase A | ~~Connect the dots ✓~~ · ~~Release workflow ✓~~ · ~~Change commit history ✓~~ |
-| **2** | Phase B + log C | ~~CodeQL matrix ✓~~ · **Secure Code Game** · log Test + Docker |
+| **2** | Phase B + log C | ~~CodeQL matrix ✓~~ · ~~Secure Code Game ✓~~ · **log Test + Docker** |
 | **3** | Phase D | Getting started Copilot · Copilot code review · Customize |
 | **4** | Optional | AI in Actions · Deploy to Azure · exam review |
 
@@ -158,7 +157,7 @@ Phase A
 
 Phase B
 [x] Configure CodeQL language matrix
-[ ] Secure Code Game
+[x] Secure Code Game
 
 Phase C (log existing repos)
 [ ] Add test-with-actions to README
