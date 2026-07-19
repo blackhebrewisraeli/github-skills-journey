@@ -1,7 +1,7 @@
 # 🗺️ GitHub Skills Learning Roadmap
 
 > Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 24 · **Last updated:** Getting started with GitHub Copilot added
+> **Account:** GitHub Pro · **Logged practices:** 26 · **Last updated:** Phase C backlog logged (Test with Actions + Publish Docker Images)
 
 ---
 
@@ -9,10 +9,10 @@
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 24]
+    subgraph done [Completed — 26]
         F[Fundamentals ×8]
         S[Security ×6]
-        A[Actions ×4]
+        A[Actions ×6]
         D[Dev/Publish ×2]
         C[Copilot/AI ×4]
     end
@@ -20,7 +20,7 @@ flowchart LR
         CR[Copilot code review]
     end
     subgraph later [Also available]
-        AB[Log Actions backlog]
+        AI[AI in Actions]
         CP[Customize Copilot]
     end
     done --> next --> later
@@ -30,7 +30,7 @@ flowchart LR
 |:------|:------:|:----------------------------------|
 | 🌱 Fundamentals | 8 | +0 pending |
 | 🛡️ Security | 6 | +0 pending |
-| ⚙️ Automation | 4 | **+2 done** (`test-with-actions`, `publish-docker-images`) |
+| ⚙️ Automation | 6 | +0 pending |
 | ☁️ Dev & Publishing | 2 | +0 pending |
 | 🤖 Copilot & AI | 4 | +1 done (`agentic-workflows…`, excluded from log) |
 
@@ -77,14 +77,12 @@ flowchart LR
 
 ---
 
-## Phase C — Actions backlog *(already finished — log when ready)*
-
-These repos **exist on your account** but are **not in README yet**. Add them in one batch:
+## Phase C — Actions backlog *(complete — logged)*
 
 | Practice | Your repo | Track row |
 |:---------|:----------|:----------|
-| [Test with Actions](https://github.com/skills/test-with-actions) | [`skills-test-with-actions`](https://github.com/blackhebrewisraeli/skills-test-with-actions) | Automation |
-| [Publish Docker Images](https://github.com/skills/publish-docker-images) | [`skills-publish-docker-images`](https://github.com/blackhebrewisraeli/skills-publish-docker-images) | Automation |
+| ~~[Test with Actions](https://github.com/skills/test-with-actions)~~ | ✅ [`skills-test-with-actions`](https://github.com/blackhebrewisraeli/skills-test-with-actions) | Automation |
+| ~~[Publish Docker Images](https://github.com/skills/publish-docker-images)~~ | ✅ [`skills-publish-docker-images`](https://github.com/blackhebrewisraeli/skills-publish-docker-images) | Automation |
 
 **Optional follow-up:**
 
@@ -92,7 +90,7 @@ These repos **exist on your account** but are **not in README yet**. Add them in
 |:-----:|:---------|:-----------|
 | **6** | [AI in Actions](https://github.com/skills/ai-in-actions) | [Start →](https://github.com/skills/ai-in-actions) |
 
-**After Phase C logging:** +2 → Automation track → 6 practices.
+**Phase C logged:** 26 practices · Automation track → 6.
 
 ---
 
@@ -131,7 +129,7 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 | Week | Target | Practices |
 |:----:|:-------|:----------|
 | **1** | Phase A | ~~Connect the dots ✓~~ · ~~Release workflow ✓~~ · ~~Change commit history ✓~~ |
-| **2** | Phase B + log C | ~~CodeQL matrix ✓~~ · ~~Secure Code Game ✓~~ · **log Test + Docker** |
+| **2** | Phase B + log C | ~~CodeQL matrix ✓~~ · ~~Secure Code Game ✓~~ · ~~log Test + Docker ✓~~ |
 | **3** | Phase D | ~~Getting started Copilot ✓~~ · **Copilot code review** · Customize |
 | **4** | Optional | AI in Actions · Deploy to Azure · exam review |
 
@@ -161,8 +159,8 @@ Phase B
 [x] Secure Code Game
 
 Phase C (log existing repos)
-[ ] Add test-with-actions to README
-[ ] Add publish-docker-images to README
+[x] Add test-with-actions to README
+[x] Add publish-docker-images to README
 [ ] (optional) AI in Actions
 
 Phase D
