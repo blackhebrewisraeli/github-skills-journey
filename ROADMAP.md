@@ -1,7 +1,8 @@
 # 🗺️ GitHub Skills Learning Roadmap
 
 > Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 26 · **Last updated:** Phase C backlog logged (Test with Actions + Publish Docker Images)
+> **Account:** GitHub Pro · **Logged practices:** 27 · **Last updated:** AI in Actions added — Phase C complete  
+> **Constraint:** Codespaces quota exhausted — prefer browser / local-clone practices for now
 
 ---
 
@@ -9,30 +10,27 @@
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 26]
+    subgraph done [Completed — 27]
         F[Fundamentals ×8]
         S[Security ×6]
-        A[Actions ×6]
+        A[Actions ×7]
         D[Dev/Publish ×2]
         C[Copilot/AI ×4]
     end
-    subgraph next [Phase D — next]
-        CR[Copilot code review]
+    subgraph next [Next — no Codespaces]
+        AZ[Deploy to Azure]
+        CR[Copilot review local]
     end
-    subgraph later [Also available]
-        AI[AI in Actions]
-        CP[Customize Copilot]
-    end
-    done --> next --> later
+    done --> next
 ```
 
-| Track | Logged | Your repos (incl. not yet logged) |
-|:------|:------:|:----------------------------------|
-| 🌱 Fundamentals | 8 | +0 pending |
-| 🛡️ Security | 6 | +0 pending |
-| ⚙️ Automation | 6 | +0 pending |
-| ☁️ Dev & Publishing | 2 | +0 pending |
-| 🤖 Copilot & AI | 4 | +1 done (`agentic-workflows…`, excluded from log) |
+| Track | Logged | Notes |
+|:------|:------:|:------|
+| 🌱 Fundamentals | 8 | — |
+| 🛡️ Security | 6 | — |
+| ⚙️ Automation | 7 | — |
+| ☁️ Dev & Publishing | 2 | — |
+| 🤖 Copilot & AI | 4 | +1 excluded (`agentic-workflows…`) |
 
 ---
 
@@ -48,61 +46,48 @@ flowchart LR
 | 6 | Close the final issue → exercise complete |
 | 7 | Ask to update [README.md](README.md) — new row + count bump |
 
+**Codespaces tip:** If a skill asks for Codespaces, use **Local** clone + your editor instead (or skip until quota resets).
+
 ---
 
 ## Phase A — Collaboration & Git depth *(complete)*
 
-**Goal:** Finish core collaboration + Git topics tested heavily on Foundations.
-
-| Order | Practice | Duration | Status |
-|:-----:|:---------|:--------:|:-------|
-| ~~**1**~~ | ~~[Connect the dots](https://github.com/skills/connect-the-dots)~~ | ~30 min | ✅ [`skills-connect-the-dots`](https://github.com/blackhebrewisraeli/skills-connect-the-dots) |
-| ~~**2**~~ | ~~[Release-based workflow](https://github.com/skills/release-based-workflow)~~ | ~45 min | ✅ [`skills-release-based-workflow`](https://github.com/blackhebrewisraeli/skills-release-based-workflow) |
-| ~~**3**~~ | ~~[Change commit history](https://github.com/skills/change-commit-history)~~ | ~45 min | ✅ [`skills-change-commit-history`](https://github.com/blackhebrewisraeli/skills-change-commit-history) |
-
-**Phase A complete.**
+| Order | Practice | Status |
+|:-----:|:---------|:-------|
+| ~~**1**~~ | ~~[Connect the dots](https://github.com/skills/connect-the-dots)~~ | ✅ [`skills-connect-the-dots`](https://github.com/blackhebrewisraeli/skills-connect-the-dots) |
+| ~~**2**~~ | ~~[Release-based workflow](https://github.com/skills/release-based-workflow)~~ | ✅ [`skills-release-based-workflow`](https://github.com/blackhebrewisraeli/skills-release-based-workflow) |
+| ~~**3**~~ | ~~[Change commit history](https://github.com/skills/change-commit-history)~~ | ✅ [`skills-change-commit-history`](https://github.com/blackhebrewisraeli/skills-change-commit-history) |
 
 ---
 
-## Phase B — Security track completion *(complete)*
+## Phase B — Security track *(complete)*
 
-**Goal:** Close out the security path you started (supply chain → secrets → CodeQL → secure coding).
-
-| Order | Practice | Duration | Status |
-|:-----:|:---------|:--------:|:-------|
-| ~~**4**~~ | ~~[Configure CodeQL language matrix](https://github.com/skills/configure-codeql-language-matrix)~~ | ~30 min | ✅ [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) |
-| ~~**5**~~ | ~~[Secure Code Game](https://github.com/skills/secure-code-game)~~ | ~1–2 hr | ✅ [`skills-secure-code-game`](https://github.com/blackhebrewisraeli/skills-secure-code-game) |
-
-**Phase B complete.**
+| Order | Practice | Status |
+|:-----:|:---------|:-------|
+| ~~**4**~~ | ~~[Configure CodeQL language matrix](https://github.com/skills/configure-codeql-language-matrix)~~ | ✅ [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) |
+| ~~**5**~~ | ~~[Secure Code Game](https://github.com/skills/secure-code-game)~~ | ✅ [`skills-secure-code-game`](https://github.com/blackhebrewisraeli/skills-secure-code-game) |
 
 ---
 
-## Phase C — Actions backlog *(complete — logged)*
+## Phase C — Actions track *(complete)*
 
-| Practice | Your repo | Track row |
-|:---------|:----------|:----------|
-| ~~[Test with Actions](https://github.com/skills/test-with-actions)~~ | ✅ [`skills-test-with-actions`](https://github.com/blackhebrewisraeli/skills-test-with-actions) | Automation |
-| ~~[Publish Docker Images](https://github.com/skills/publish-docker-images)~~ | ✅ [`skills-publish-docker-images`](https://github.com/blackhebrewisraeli/skills-publish-docker-images) | Automation |
+| Practice | Status |
+|:---------|:-------|
+| ~~[Test with Actions](https://github.com/skills/test-with-actions)~~ | ✅ [`skills-test-with-actions`](https://github.com/blackhebrewisraeli/skills-test-with-actions) |
+| ~~[Publish Docker Images](https://github.com/skills/publish-docker-images)~~ | ✅ [`skills-publish-docker-images`](https://github.com/blackhebrewisraeli/skills-publish-docker-images) |
+| ~~[AI in Actions](https://github.com/skills/ai-in-actions)~~ | ✅ [`skills-ai-in-actions`](https://github.com/blackhebrewisraeli/skills-ai-in-actions) |
 
-**Optional follow-up:**
-
-| Order | Practice | Start here |
-|:-----:|:---------|:-----------|
-| **6** | [AI in Actions](https://github.com/skills/ai-in-actions) | [Start →](https://github.com/skills/ai-in-actions) |
-
-**Phase C logged:** 26 practices · Automation track → 6.
+**Phase C complete:** 27 practices · Automation track → 7.
 
 ---
 
-## Phase D — Copilot polish *(requires active Copilot)* ← **NEXT**
-
-You've done the advanced Copilot/agent courses. Fill in the foundation layer:
+## Phase D — Copilot polish *(requires Copilot; prefer local editor)* 
 
 | Order | Practice | Duration | Status |
 |:-----:|:---------|:--------:|:-------|
 | ~~**7**~~ | ~~[Getting started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)~~ | ~30 min | ✅ [`skills-getting-started-with-github-copilot`](https://github.com/blackhebrewisraeli/skills-getting-started-with-github-copilot) |
-| **8** | [Copilot code review](https://github.com/skills/copilot-code-review) | ~30 min | **→ Next** · [Start →](https://github.com/skills/copilot-code-review) |
-| **9** | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | ~45 min | [Start →](https://github.com/skills/customize-your-github-copilot-experience) |
+| **8** | [Copilot code review](https://github.com/skills/copilot-code-review) | ~30 min | [Start →](https://github.com/skills/copilot-code-review) · **clone locally, skip Codespaces** |
+| **9** | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | ~45 min | [Start →](https://github.com/skills/customize-your-github-copilot-experience) · **local editor** |
 
 **Optional stretch:**
 
@@ -111,16 +96,16 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 
 ---
 
-## Phase E — Optional / situational
+## Phase E — Optional / situational ← **NEXT (no Codespaces)**
 
-| Practice | Do it if… |
-|:---------|:----------|
-| [Deploy to Azure](https://github.com/skills/deploy-to-azure) | You want cloud deploy on your CV (free Azure tier) |
-| [Copilot + Codespaces + VS Code](https://github.com/skills/copilot-codespaces-vscode) | You use Codespaces regularly |
-| [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | You work with Azure DevOps |
-| [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | Spark is available on your account |
+| Practice | Do it if… | Codespaces? |
+|:---------|:----------|:------------|
+| [Deploy to Azure](https://github.com/skills/deploy-to-azure) | Cloud deploy on your CV (free Azure tier) | Prefer **local** if prompted |
+| [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | Spark is available on your account | Usually no |
+| [Copilot + Codespaces + VS Code](https://github.com/skills/copilot-codespaces-vscode) | After Codespaces quota resets | **Yes — skip for now** |
+| [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | You work with Azure DevOps | **Yes — skip for now** |
 
-**Skip for now:** Copilot Spaces, Expand team with Copilot (org/Business features), Migrate ADO (unless needed).
+**Skip for now:** Copilot Spaces, Expand team with Copilot (org/Business), Migrate ADO, Copilot+Codespaces.
 
 ---
 
@@ -129,11 +114,9 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 | Week | Target | Practices |
 |:----:|:-------|:----------|
 | **1** | Phase A | ~~Connect the dots ✓~~ · ~~Release workflow ✓~~ · ~~Change commit history ✓~~ |
-| **2** | Phase B + log C | ~~CodeQL matrix ✓~~ · ~~Secure Code Game ✓~~ · ~~log Test + Docker ✓~~ |
-| **3** | Phase D | ~~Getting started Copilot ✓~~ · **Copilot code review** · Customize |
-| **4** | Optional | AI in Actions · Deploy to Azure · exam review |
-
-~3 practices/week → **Foundations-ready portfolio in ~4 weeks**.
+| **2** | Phase B + C | ~~CodeQL matrix ✓~~ · ~~Secure Code Game ✓~~ · ~~Test + Docker ✓~~ · ~~AI in Actions ✓~~ |
+| **3** | Phase D (local) | ~~Getting started Copilot ✓~~ · Copilot code review · Customize |
+| **4** | Optional | **Deploy to Azure** · exam review |
 
 ---
 
@@ -141,7 +124,7 @@ You've done the advanced Copilot/agent courses. Fill in the foundation layer:
 
 - **Always use public repos** for Skills exercises when possible.
 - **Private repo Actions** count against 3,000 min/month on Pro.
-- **Codespaces:** watch usage after free allowance.
+- **Codespaces:** quota exhausted — use local clone until it resets.
 - **CodeQL / secret scanning skills:** work best on **public** repos on individual Pro accounts.
 
 ---
@@ -158,15 +141,19 @@ Phase B
 [x] Configure CodeQL language matrix
 [x] Secure Code Game
 
-Phase C (log existing repos)
+Phase C
 [x] Add test-with-actions to README
 [x] Add publish-docker-images to README
-[ ] (optional) AI in Actions
+[x] AI in Actions
 
-Phase D
+Phase D (local editor — no Codespaces)
 [x] Getting started with GitHub Copilot
 [ ] Copilot code review
 [ ] Customize GitHub Copilot experience
+
+Phase E (no Codespaces)
+[ ] Deploy to Azure
+[ ] (optional) Idea to App with Spark
 ```
 
 ---
