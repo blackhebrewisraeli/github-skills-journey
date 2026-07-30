@@ -7,13 +7,13 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2da44e,100:0969da&height=200&section=header&text=GitHub%20Skills%20Journey&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20hands-on%20logbook%20on%20the%20road%20to%20GitHub%20Foundations&descSize=16&descAlignY=60" alt="GitHub Skills Journey" width="100%" />
 
 <a href="#-table-of-contents">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=27+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=28+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
 </a>
 
 <br/>
 
 [![Preparing for GitHub Foundations](https://img.shields.io/badge/Preparing%20for-GitHub%20Foundations-181717?style=for-the-badge&logo=github)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
-[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-27-2da44e?style=for-the-badge)](#-the-practices)
+[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-28-2da44e?style=for-the-badge)](#-the-practices)
 [![Roadmap](https://img.shields.io/badge/Next%20Up-See%20Roadmap-0969da?style=for-the-badge)](ROADMAP.md)
 [![Categories](https://img.shields.io/badge/Tracks-5-0969da?style=for-the-badge)](#-table-of-contents)
 
@@ -21,7 +21,7 @@
 
 > [!NOTE]
 > This repository is a single, organized home for the interactive [**GitHub Skills**](https://skills.github.com/) exercises I completed.
-> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 27 near-identical
+> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 28 near-identical
 > practice repos scattered across my profile, I've consolidated them here into one clear story of *what* I learned and *where* the proof lives.
 
 ---
@@ -37,7 +37,7 @@
 | 1 | [🌱 Git &amp; GitHub Foundations](#-page-1--git--github-foundations) | `8` |
 | 2 | [🛡️ Repository Management &amp; Security](#-page-2--repository-management--security) | `6` |
 | 3 | [⚙️ Automation with GitHub Actions](#-page-3--automation-with-github-actions) | `7` |
-| 4 | [☁️ Dev Environments &amp; Publishing](#-page-4--dev-environments--publishing) | `2` |
+| 4 | [☁️ Dev Environments &amp; Publishing](#-page-4--dev-environments--publishing) | `3` |
 | 5 | [🤖 AI, Copilot &amp; Agents](#-page-5--ai-copilot--agents) | `4` |
 | — | [🗺️ Learning Roadmap](#%EF%B8%8F-learning-roadmap) | — |
 | — | [🧠 Skills Demonstrated](#-skills-demonstrated) | — |
@@ -48,7 +48,7 @@
 
 **Progress**
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **27 practices logged across 5 tracks**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **28 practices logged across 5 tracks**
 
 </div>
 
@@ -132,7 +132,7 @@
 ### ☁️ Page 4 · Dev Environments &amp; Publishing
 
 <details>
-<summary><b>📂 Building and shipping straight from a repo &nbsp;·&nbsp; <code>2 practices</code></b></summary>
+<summary><b>📂 Building and shipping straight from a repo &nbsp;·&nbsp; <code>3 practices</code></b></summary>
 
 <br/>
 
@@ -140,6 +140,7 @@
 |:------------|:------------------|:--------------|
 | **Code with Codespaces** | Developing in a cloud dev environment directly from a repo. | [`skills-code-with-codespaces`](https://github.com/blackhebrewisraeli/skills-code-with-codespaces) |
 | **GitHub Pages** | Publishing a site or blog straight from a repository. | [`skills-github-pages`](https://github.com/blackhebrewisraeli/skills-github-pages) |
+| **Deploy to Azure** | Deploying an app to Azure from GitHub using Actions and cloud deployment workflows. | [`skills-deploy-to-azure`](https://github.com/blackhebrewisraeli/skills-deploy-to-azure) |
 
 </details>
 
@@ -215,7 +216,7 @@
 
 <div align="center">
 
-☁️ **Dev environments &amp; publishing** — Codespaces &nbsp;·&nbsp; GitHub Pages
+☁️ **Dev environments &amp; publishing** — Codespaces &nbsp;·&nbsp; GitHub Pages &nbsp;·&nbsp; Azure deploy
 
 </div>
 
@@ -227,7 +228,7 @@
 
 ## 🗺️ Learning Roadmap
 
-> **27 logged** · next targets and full plan in **[ROADMAP.md](ROADMAP.md)**
+> **28 logged** · next targets and full plan in **[ROADMAP.md](ROADMAP.md)**
 
 | Phase | Focus | Next up |
 |:-----:|:------|:--------|
@@ -235,7 +236,7 @@
 | **B** | Security completion | ~~Secure Code Game ✓~~ — **Phase B complete** |
 | **C** | Actions backlog | ~~Test + Docker ✓~~ · ~~AI in Actions ✓~~ — **Phase C complete** |
 | **D** | Copilot polish *(local editor — no Codespaces)* | [Copilot code review](https://github.com/skills/copilot-code-review) |
-| **E** | Optional *(no Codespaces)* | [Deploy to Azure](https://github.com/skills/deploy-to-azure) |
+| **E** | Optional | ~~Deploy to Azure ✓~~ · [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) *(if available)* |
 
 <details>
 <summary><b>📋 Quick start — how to run the next practice</b></summary>

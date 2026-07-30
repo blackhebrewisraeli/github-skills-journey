@@ -1,7 +1,7 @@
 # 🗺️ GitHub Skills Learning Roadmap
 
 > Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 27 · **Last updated:** AI in Actions added — Phase C complete  
+> **Account:** GitHub Pro · **Logged practices:** 28 · **Last updated:** Deploy to Azure added  
 > **Constraint:** Codespaces quota exhausted — prefer browser / local-clone practices for now
 
 ---
@@ -10,16 +10,16 @@
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 27]
+    subgraph done [Completed — 28]
         F[Fundamentals ×8]
         S[Security ×6]
         A[Actions ×7]
-        D[Dev/Publish ×2]
+        D[Dev/Publish ×3]
         C[Copilot/AI ×4]
     end
     subgraph next [Next — no Codespaces]
-        AZ[Deploy to Azure]
         CR[Copilot review local]
+        SP[Spark optional]
     end
     done --> next
 ```
@@ -29,7 +29,7 @@ flowchart LR
 | 🌱 Fundamentals | 8 | — |
 | 🛡️ Security | 6 | — |
 | ⚙️ Automation | 7 | — |
-| ☁️ Dev & Publishing | 2 | — |
+| ☁️ Dev & Publishing | 3 | — |
 | 🤖 Copilot & AI | 4 | +1 excluded (`agentic-workflows…`) |
 
 ---
@@ -77,16 +77,14 @@ flowchart LR
 | ~~[Publish Docker Images](https://github.com/skills/publish-docker-images)~~ | ✅ [`skills-publish-docker-images`](https://github.com/blackhebrewisraeli/skills-publish-docker-images) |
 | ~~[AI in Actions](https://github.com/skills/ai-in-actions)~~ | ✅ [`skills-ai-in-actions`](https://github.com/blackhebrewisraeli/skills-ai-in-actions) |
 
-**Phase C complete:** 27 practices · Automation track → 7.
-
 ---
 
-## Phase D — Copilot polish *(requires Copilot; prefer local editor)* 
+## Phase D — Copilot polish *(requires Copilot; prefer local editor)* ← **NEXT**
 
 | Order | Practice | Duration | Status |
 |:-----:|:---------|:--------:|:-------|
 | ~~**7**~~ | ~~[Getting started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)~~ | ~30 min | ✅ [`skills-getting-started-with-github-copilot`](https://github.com/blackhebrewisraeli/skills-getting-started-with-github-copilot) |
-| **8** | [Copilot code review](https://github.com/skills/copilot-code-review) | ~30 min | [Start →](https://github.com/skills/copilot-code-review) · **clone locally, skip Codespaces** |
+| **8** | [Copilot code review](https://github.com/skills/copilot-code-review) | ~30 min | **→ Next** · [Start →](https://github.com/skills/copilot-code-review) · **clone locally, skip Codespaces** |
 | **9** | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | ~45 min | [Start →](https://github.com/skills/customize-your-github-copilot-experience) · **local editor** |
 
 **Optional stretch:**
@@ -96,14 +94,14 @@ flowchart LR
 
 ---
 
-## Phase E — Optional / situational ← **NEXT (no Codespaces)**
+## Phase E — Optional / situational
 
-| Practice | Do it if… | Codespaces? |
-|:---------|:----------|:------------|
-| [Deploy to Azure](https://github.com/skills/deploy-to-azure) | Cloud deploy on your CV (free Azure tier) | Prefer **local** if prompted |
-| [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | Spark is available on your account | Usually no |
+| Practice | Status / notes | Codespaces? |
+|:---------|:---------------|:------------|
+| ~~[Deploy to Azure](https://github.com/skills/deploy-to-azure)~~ | ✅ [`skills-deploy-to-azure`](https://github.com/blackhebrewisraeli/skills-deploy-to-azure) | Done (local/browser) |
+| [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | If Spark is available on your account | Usually no |
 | [Copilot + Codespaces + VS Code](https://github.com/skills/copilot-codespaces-vscode) | After Codespaces quota resets | **Yes — skip for now** |
-| [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | You work with Azure DevOps | **Yes — skip for now** |
+| [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | Azure DevOps migration | **Yes — skip for now** |
 
 **Skip for now:** Copilot Spaces, Expand team with Copilot (org/Business), Migrate ADO, Copilot+Codespaces.
 
@@ -115,8 +113,8 @@ flowchart LR
 |:----:|:-------|:----------|
 | **1** | Phase A | ~~Connect the dots ✓~~ · ~~Release workflow ✓~~ · ~~Change commit history ✓~~ |
 | **2** | Phase B + C | ~~CodeQL matrix ✓~~ · ~~Secure Code Game ✓~~ · ~~Test + Docker ✓~~ · ~~AI in Actions ✓~~ |
-| **3** | Phase D (local) | ~~Getting started Copilot ✓~~ · Copilot code review · Customize |
-| **4** | Optional | **Deploy to Azure** · exam review |
+| **3** | Phase D (local) | ~~Getting started Copilot ✓~~ · **Copilot code review** · Customize |
+| **4** | Optional | ~~Deploy to Azure ✓~~ · exam review |
 
 ---
 
@@ -151,8 +149,8 @@ Phase D (local editor — no Codespaces)
 [ ] Copilot code review
 [ ] Customize GitHub Copilot experience
 
-Phase E (no Codespaces)
-[ ] Deploy to Azure
+Phase E
+[x] Deploy to Azure
 [ ] (optional) Idea to App with Spark
 ```
 
