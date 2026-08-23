@@ -1,159 +1,138 @@
-# 🗺️ GitHub Skills Learning Roadmap
+# Leftover practice
 
-> Personal study plan for [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) prep.  
-> **Account:** GitHub Pro · **Logged practices:** 28 · **Last updated:** Deploy to Azure added  
-> **Constraint:** Codespaces quota exhausted — prefer browser / local-clone practices for now
+What I have **not** finished yet, and what I am running next.
 
----
+This is a personal queue for [GitHub Skills](https://learn.github.com/skills/) exercises. It is not a study plan for any exam or credential.
 
-## Progress overview
+**Account notes:** GitHub Pro · Codespaces quota exhausted — prefer browser or local clone  
+**Active catalog:** 40 · **Finished:** 29 · **In progress:** 2 · **Not started:** 9  
+**Last updated:** 23 August 2026 (tracker rebuild; catalog re-checked)
 
 ```mermaid
 flowchart LR
-    subgraph done [Completed — 28]
-        F[Fundamentals ×8]
+    subgraph done [Finished — 29]
+        G[Git and GitHub ×8]
         S[Security ×6]
-        A[Actions ×7]
-        D[Dev/Publish ×3]
-        C[Copilot/AI ×4]
+        A[Actions ×8]
+        P[Pages and Codespaces ×2]
+        C[Copilot and agents ×5]
     end
-    subgraph next [Next — no Codespaces]
-        CR[Copilot review local]
-        SP[Spark optional]
+    subgraph next [Next — local editor]
+        CR[Copilot code review]
+        CU[Customize Copilot]
+    end
+    subgraph later [Later or parked]
+        QA[Actions leftovers]
+        AI[Other Copilot labs]
+        PR[Parked access or quota]
     end
     done --> next
+    next --> later
 ```
-
-| Track | Logged | Notes |
-|:------|:------:|:------|
-| 🌱 Fundamentals | 8 | — |
-| 🛡️ Security | 6 | — |
-| ⚙️ Automation | 7 | — |
-| ☁️ Dev & Publishing | 3 | — |
-| 🤖 Copilot & AI | 4 | +1 excluded (`agentic-workflows…`) |
 
 ---
 
-## How to run any practice (repeatable workflow)
+## Next
+
+| # | Course | Status | How I will run it |
+|:--|:-------|:-------|:------------------|
+| 1 | [Copilot code review](https://github.com/skills/copilot-code-review) | **In progress** · copy already exists | [Open my copy](https://github.com/blackhebrewisraeli/skills-copilot-code-review) · **local editor, skip Codespaces** |
+| 2 | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started | [Start course](https://github.com/skills/customize-your-github-copilot-experience) · local editor |
+
+Finish **1** before opening a new template for **2**, so this log stays honest about in-progress copies.
+
+---
+
+## Open queue (everything not finished)
+
+### Ready when I am (no extra product beyond Copilot / public Actions)
+
+| Course | Status | Track |
+|:-------|:-------|:------|
+| [Copilot code review](https://github.com/skills/copilot-code-review) | In progress | Copilot |
+| [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started | Copilot |
+| [Build applications with Copilot agent mode](https://github.com/skills/build-applications-w-copilot-agent-mode) | Not started | Copilot |
+| [Modernize your legacy code with GitHub Copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started | Copilot |
+| [Workflow artifacts](https://github.com/skills/workflow-artifacts) | Not started | Actions |
+| [Ship with quality](https://github.com/skills/ship-with-quality) | Not started | Actions |
+| [Idea to Merge with the Copilot App](https://github.com/skills/idea-to-merge-with-the-copilot-app) | Not started | Copilot App |
+
+### Depends on a product or quota I may not have
+
+| Course | Status | Why it is waiting |
+|:-------|:-------|:------------------|
+| [Expand your team with Copilot](https://github.com/skills/expand-your-team-with-copilot) | Not started · Parked | Copilot coding agent / usually org or team access |
+| [Scale institutional knowledge using Copilot Spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Not started · Parked | Copilot Spaces |
+| [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | Not started | Spark has to be available on the account |
+| [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | In progress · Parked | Copy: [skills-migrate-ado-repository](https://github.com/blackhebrewisraeli/skills-migrate-ado-repository). Codespaces and an Azure DevOps sample. Revisit after quota resets if I still want the migration practice. |
+
+### Not queued (official course archived)
+
+| Course | Why it is not leftover practice |
+|:-------|:--------------------------------|
+| [Copilot + Codespaces + VS Code](https://github.com/skills/copilot-codespaces-vscode) | Archived by GitHub |
+| [Your first extension for GitHub Copilot](https://github.com/skills/your-first-extension-for-github-copilot) | Archived by GitHub |
+
+---
+
+## Already finished (do not re-queue)
+
+Full table: [CATALOG.md](CATALOG.md). Short list:
+
+- **Git & GitHub (8):** Introduction to GitHub, Introduction to Git, Markdown, Review PRs, Connect the Dots, Resolve Merge Conflicts, Change Commit History, Release-based Workflow
+- **Security (6):** Repository Management, Supply Chain, Secret Scanning, CodeQL, CodeQL language matrix, Secure Code Game
+- **Actions (8):** Hello Actions, Test with Actions, Reusable Workflows, JavaScript Actions, Docker images, Deploy to Azure, AI in Actions, AI-powered Actions
+- **Publishing (2 extra):** Codespaces, GitHub Pages *(Deploy to Azure counted under Actions)*
+- **Copilot / agents (5):** Getting started with Copilot, Copilot CLI, MCP + Copilot, Agent orchestration, Agentic workflows that read the room
+
+---
+
+## How I run any leftover course
 
 | Step | Action |
 |:----:|:-------|
-| 1 | Go to [skills.github.com](https://skills.github.com/) or the `@skills` repo linked below |
-| 2 | Click **Use this template** → **Create a new repository** |
-| 3 | Choose **Public** (unlimited Actions minutes; recommended on Pro) |
-| 4 | Open **Issues** — Mona posts Step 1 within ~20 seconds |
-| 5 | Follow each issue/comment; open PRs when asked |
-| 6 | Close the final issue → exercise complete |
-| 7 | Ask to update [README.md](README.md) — new row + count bump |
+| 1 | Open [learn.github.com/skills](https://learn.github.com/skills/) or the `@skills` repo above |
+| 2 | **Use this template** → **Create a new repository** |
+| 3 | Make it **Public** (private-repo Actions minutes are limited) |
+| 4 | Open **Issues** — Step 1 usually appears within ~20 seconds |
+| 5 | Do the work Mona asks (edit, commit, PR) |
+| 6 | When the last step closes, update [CATALOG.md](CATALOG.md), [README.md](README.md), and [KNOWLEDGE.md](KNOWLEDGE.md), then delete the row here |
 
-**Codespaces tip:** If a skill asks for Codespaces, use **Local** clone + your editor instead (or skip until quota resets).
-
----
-
-## Phase A — Collaboration & Git depth *(complete)*
-
-| Order | Practice | Status |
-|:-----:|:---------|:-------|
-| ~~**1**~~ | ~~[Connect the dots](https://github.com/skills/connect-the-dots)~~ | ✅ [`skills-connect-the-dots`](https://github.com/blackhebrewisraeli/skills-connect-the-dots) |
-| ~~**2**~~ | ~~[Release-based workflow](https://github.com/skills/release-based-workflow)~~ | ✅ [`skills-release-based-workflow`](https://github.com/blackhebrewisraeli/skills-release-based-workflow) |
-| ~~**3**~~ | ~~[Change commit history](https://github.com/skills/change-commit-history)~~ | ✅ [`skills-change-commit-history`](https://github.com/blackhebrewisraeli/skills-change-commit-history) |
+If the course wants Codespaces: clone locally and use the editor I already have, or skip until quota resets.
 
 ---
 
-## Phase B — Security track *(complete)*
+## Working notes that are not “academy leftover”
 
-| Order | Practice | Status |
-|:-----:|:---------|:-------|
-| ~~**4**~~ | ~~[Configure CodeQL language matrix](https://github.com/skills/configure-codeql-language-matrix)~~ | ✅ [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) |
-| ~~**5**~~ | ~~[Secure Code Game](https://github.com/skills/secure-code-game)~~ | ✅ [`skills-secure-code-game`](https://github.com/blackhebrewisraeli/skills-secure-code-game) |
+These are environment reminders, not courses:
 
----
-
-## Phase C — Actions track *(complete)*
-
-| Practice | Status |
-|:---------|:-------|
-| ~~[Test with Actions](https://github.com/skills/test-with-actions)~~ | ✅ [`skills-test-with-actions`](https://github.com/blackhebrewisraeli/skills-test-with-actions) |
-| ~~[Publish Docker Images](https://github.com/skills/publish-docker-images)~~ | ✅ [`skills-publish-docker-images`](https://github.com/blackhebrewisraeli/skills-publish-docker-images) |
-| ~~[AI in Actions](https://github.com/skills/ai-in-actions)~~ | ✅ [`skills-ai-in-actions`](https://github.com/blackhebrewisraeli/skills-ai-in-actions) |
+- Prefer **public** practice repos so Actions, CodeQL, and secret scanning behave the way the exercise expects on an individual Pro account.
+- Private-repo Actions count against the monthly minutes on Pro.
+- Do not start a second in-progress copy while Copilot code review is still open, unless I also log it in [CATALOG.md](CATALOG.md) the same day.
 
 ---
 
-## Phase D — Copilot polish *(requires Copilot; prefer local editor)* ← **NEXT**
-
-| Order | Practice | Duration | Status |
-|:-----:|:---------|:--------:|:-------|
-| ~~**7**~~ | ~~[Getting started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)~~ | ~30 min | ✅ [`skills-getting-started-with-github-copilot`](https://github.com/blackhebrewisraeli/skills-getting-started-with-github-copilot) |
-| **8** | [Copilot code review](https://github.com/skills/copilot-code-review) | ~30 min | **→ Next** · [Start →](https://github.com/skills/copilot-code-review) · **clone locally, skip Codespaces** |
-| **9** | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | ~45 min | [Start →](https://github.com/skills/customize-your-github-copilot-experience) · **local editor** |
-
-**Optional stretch:**
-
-- [Build applications with Copilot agent mode](https://github.com/skills/build-applications-w-copilot-agent-mode)
-- [Your first extension for GitHub Copilot](https://github.com/skills/your-first-extension-for-github-copilot)
-
----
-
-## Phase E — Optional / situational
-
-| Practice | Status / notes | Codespaces? |
-|:---------|:---------------|:------------|
-| ~~[Deploy to Azure](https://github.com/skills/deploy-to-azure)~~ | ✅ [`skills-deploy-to-azure`](https://github.com/blackhebrewisraeli/skills-deploy-to-azure) | Done (local/browser) |
-| [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | If Spark is available on your account | Usually no |
-| [Copilot + Codespaces + VS Code](https://github.com/skills/copilot-codespaces-vscode) | After Codespaces quota resets | **Yes — skip for now** |
-| [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | Azure DevOps migration | **Yes — skip for now** |
-
-**Skip for now:** Copilot Spaces, Expand team with Copilot (org/Business), Migrate ADO, Copilot+Codespaces.
-
----
-
-## Recommended weekly pace
-
-| Week | Target | Practices |
-|:----:|:-------|:----------|
-| **1** | Phase A | ~~Connect the dots ✓~~ · ~~Release workflow ✓~~ · ~~Change commit history ✓~~ |
-| **2** | Phase B + C | ~~CodeQL matrix ✓~~ · ~~Secure Code Game ✓~~ · ~~Test + Docker ✓~~ · ~~AI in Actions ✓~~ |
-| **3** | Phase D (local) | ~~Getting started Copilot ✓~~ · **Copilot code review** · Customize |
-| **4** | Optional | ~~Deploy to Azure ✓~~ · exam review |
-
----
-
-## GitHub Pro tips (avoid hitting limits)
-
-- **Always use public repos** for Skills exercises when possible.
-- **Private repo Actions** count against 3,000 min/month on Pro.
-- **Codespaces:** quota exhausted — use local clone until it resets.
-- **CodeQL / secret scanning skills:** work best on **public** repos on individual Pro accounts.
-
----
-
-## Checklist — copy as you go
+## Checklist I copy from when I sit down to practice
 
 ```
-Phase A
-[x] Connect the dots
-[x] Release-based workflow
-[x] Change commit history
+Next
+[ ] Copilot code review          (copy already exists)
+[ ] Customize Copilot experience
 
-Phase B
-[x] Configure CodeQL language matrix
-[x] Secure Code Game
+Actions leftovers
+[ ] Workflow artifacts
+[ ] Ship with quality
 
-Phase C
-[x] Add test-with-actions to README
-[x] Add publish-docker-images to README
-[x] AI in Actions
+Copilot leftovers I can start without extra products
+[ ] Build applications with Copilot agent mode
+[ ] Modernize legacy code with Copilot
+[ ] Idea to Merge with the Copilot App
 
-Phase D (local editor — no Codespaces)
-[x] Getting started with GitHub Copilot
-[ ] Copilot code review
-[ ] Customize GitHub Copilot experience
-
-Phase E
-[x] Deploy to Azure
-[ ] (optional) Idea to App with Spark
+Waiting on access or quota
+[ ] Expand team with Copilot
+[ ] Copilot Spaces
+[ ] Idea to App with Spark
+[ ] Migrate ADO repository       (copy already exists)
 ```
 
----
-
-<sub>See completed work in [README.md](README.md) · Maintained by <a href="https://github.com/blackhebrewisraeli">@blackhebrewisraeli</a></sub>
+<sub>Personal queue · see finished work in [README.md](README.md) · <a href="https://github.com/blackhebrewisraeli">@blackhebrewisraeli</a></sub>
