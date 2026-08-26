@@ -1,280 +1,202 @@
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                      HEADER  /  COVER PAGE                     ║ -->
+<!-- ║                         HEADER                                ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2da44e,100:0969da&height=200&section=header&text=GitHub%20Skills%20Journey&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20hands-on%20logbook%20on%20the%20road%20to%20GitHub%20Foundations&descSize=16&descAlignY=60" alt="GitHub Skills Journey" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2da44e,100:0969da&height=180&section=header&text=GitHub%20Skills%20Progress&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Personal%20practice%20log%20%E2%80%94%20what%20I%20finished%2C%20what%20is%20left&descSize=16&descAlignY=62" alt="GitHub Skills Progress" width="100%" />
 
-<a href="#-table-of-contents">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2DA44E&center=true&vCenter=true&width=620&lines=28+hands-on+practices%2C+0+tutorials+skipped;Fundamentals+%E2%86%92+Automation+%E2%86%92+AI+%26+Agents;Real%2C+graded+exercises+run+on+GitHub" alt="Typing summary" />
-</a>
-
-<br/>
-
-[![Preparing for GitHub Foundations](https://img.shields.io/badge/Preparing%20for-GitHub%20Foundations-181717?style=for-the-badge&logo=github)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
-[![Practices Completed](https://img.shields.io/badge/Practices%20Completed-28-2da44e?style=for-the-badge)](#-the-practices)
-[![Roadmap](https://img.shields.io/badge/Next%20Up-See%20Roadmap-0969da?style=for-the-badge)](ROADMAP.md)
-[![Categories](https://img.shields.io/badge/Tracks-5-0969da?style=for-the-badge)](#-table-of-contents)
+[![Finished](https://img.shields.io/badge/Finished-30%20%2F%2040-2da44e?style=for-the-badge)](CATALOG.md)
+[![In progress](https://img.shields.io/badge/In%20progress-1-d4a017?style=for-the-badge)](ROADMAP.md)
+[![Not started](https://img.shields.io/badge/Not%20started-9-6e7781?style=for-the-badge)](ROADMAP.md)
+[![Catalog](https://img.shields.io/badge/Official%20catalog-GitHub%20Skills-0969da?style=for-the-badge)](https://learn.github.com/skills/)
 
 </div>
 
-> [!NOTE]
-> This repository is a single, organized home for the interactive [**GitHub Skills**](https://skills.github.com/) exercises I completed.
-> Each one is a real, graded exercise run end-to-end on GitHub — not a tutorial I read. Instead of leaving 28 near-identical
-> practice repos scattered across my profile, I've consolidated them here into one clear story of *what* I learned and *where* the proof lives.
+## What this repository is
+
+This is my **personal tracker** for [GitHub Skills](https://learn.github.com/skills/) — the interactive courses that run inside a real GitHub repository (issues, pull requests, Actions, and Mona's step-by-step checks).
+
+I use it to answer four questions:
+
+| Question | Where it lives |
+|:---------|:---------------|
+| Which courses have I finished? | This page · [CATALOG.md](CATALOG.md) |
+| Which courses have I not done yet? | [ROADMAP.md](ROADMAP.md) · [CATALOG.md](CATALOG.md) |
+| What knowledge did those exercises actually cover? | [KNOWLEDGE.md](KNOWLEDGE.md) |
+| What is the next practice I should run? | [ROADMAP.md](ROADMAP.md) |
+
+Each finished row links to the practice copy on my account. Those copies are the working evidence of the exercise — not a grade, badge, or official record.
+
+## What this repository is not
+
+This log is **personal study notes**. It is not:
+
+- an official GitHub record of anything
+- a credential, certificate, diploma, or exam result
+- a substitute for GitHub's own course pages
+- a claim that I am “certified,” “validated,” or endorsed by GitHub
+
+If a number appears here (30 / 40, a track total, a progress bar), it only means **how many Skills exercises I have finished in my own copies**. It does not mean I passed a test.
 
 ---
 
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                       TABLE OF CONTENTS                       ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+## Snapshot
 
-## 📖 Table of Contents
+Last catalog check: **23 August 2026** against the public [`@skills`](https://github.com/skills) organization. Last practice logged: **26 August 2026** (Copilot code review).
 
-| Page | Track | Practices |
-|:----:|:------|:---------:|
-| 1 | [🌱 Git &amp; GitHub Foundations](#-page-1--git--github-foundations) | `8` |
-| 2 | [🛡️ Repository Management &amp; Security](#-page-2--repository-management--security) | `6` |
-| 3 | [⚙️ Automation with GitHub Actions](#-page-3--automation-with-github-actions) | `7` |
-| 4 | [☁️ Dev Environments &amp; Publishing](#-page-4--dev-environments--publishing) | `3` |
-| 5 | [🤖 AI, Copilot &amp; Agents](#-page-5--ai-copilot--agents) | `4` |
-| — | [🗺️ Learning Roadmap](#%EF%B8%8F-learning-roadmap) | — |
-| — | [🧠 Skills Demonstrated](#-skills-demonstrated) | — |
-| — | [🎯 Why a Certification?](#-why-a-certification) | — |
-| — | [🚀 Beyond the Practices](#-beyond-the-practices) | — |
+| | Count | Meaning |
+|:--|:-----:|:--------|
+| **Active Skills exercises** | 40 | Public course templates that are not archived |
+| **Finished** | 30 | I completed the exercise in my copy |
+| **In progress** | 1 | I created a copy; the exercise is not finished |
+| **Not started** | 9 | Still in the catalog; no finished copy |
+| **Archived official courses** | 2 | Retired by GitHub; not in the active queue |
 
-<div align="center">
+```text
+Finished     ██████████████████████████████░░░░░░░░░░  30 / 40
+In progress  ░                                         1
+Not started  ░░░░░░░░░                                 9
+```
 
-**Progress**
+| Track | Finished | Still open | Open items |
+|:------|:--------:|:----------:|:-----------|
+| Git & GitHub basics | 8 | 0 | — |
+| Repository management & security | 6 | 0 | — |
+| Automation with Actions | 8 | 2 | [Workflow artifacts](https://github.com/skills/workflow-artifacts) · [Ship with quality](https://github.com/skills/ship-with-quality) |
+| Dev environments & publishing | 2 | 0 | Codespaces · Pages *(Azure deploy is counted under Actions)* |
+| Copilot, agents & AI | 6 | 6 | See [ROADMAP.md](ROADMAP.md) |
+| Cloud, migration & Spark | 0 | 2 | Spark · ADO migrate *(started)* |
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` &nbsp; **28 practices logged across 5 tracks**
-
-</div>
-
----
-
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                        THE PRACTICES                          ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
-
-## 📚 The Practices
-
-> Each track below is a collapsible **page** — click a heading to flip it open. 📂
-
-<br/>
-
-<!-- ───────────────────────── PAGE 1 ───────────────────────── -->
-
-### 🌱 Page 1 · Git &amp; GitHub Foundations
-
-<details open>
-<summary><b>📂 The core workflow every developer needs &nbsp;·&nbsp; <code>8 practices</code></b></summary>
-
-<br/>
-
-| 🎓 Practice | 💡 What it covers | 🔗 Repository |
-|:------------|:------------------|:--------------|
-| **Introduction to GitHub** | Repositories, branches, commits, and pull requests — the core GitHub workflow. | [`skills-introduction-to-github`](https://github.com/blackhebrewisraeli/skills-introduction-to-github) |
-| **Introduction to Git** | Cloning, staging, committing, and pushing from the command line. | [`skills-introduction-to-git`](https://github.com/blackhebrewisraeli/skills-introduction-to-git) |
-| **Change Commit History** | Amending commits, interactive rebase, squashing, and reordering history. | [`skills-change-commit-history`](https://github.com/blackhebrewisraeli/skills-change-commit-history) |
-| **Communicate using Markdown** | Formatting issues, PRs, and docs with headings, lists, links, tables, and code blocks. | [`skills-communicate-using-markdown`](https://github.com/blackhebrewisraeli/skills-communicate-using-markdown) |
-| **Review Pull Requests** | Assigning reviewers, leaving comments, suggesting changes, approving, and merging. | [`skills-review-pull-requests`](https://github.com/blackhebrewisraeli/skills-review-pull-requests) |
-| **Connect the Dots** | Cross-referencing issues, pull requests, and commits with keywords and links. | [`skills-connect-the-dots`](https://github.com/blackhebrewisraeli/skills-connect-the-dots) |
-| **Release-based Workflow** | Creating releases, tagging versions, and automating release workflows on GitHub. | [`skills-release-based-workflow`](https://github.com/blackhebrewisraeli/skills-release-based-workflow) |
-| **Resolve Merge Conflicts** | Understanding, triggering, and safely resolving conflicting changes. | [`skills-resolve-merge-conflicts`](https://github.com/blackhebrewisraeli/skills-resolve-merge-conflicts) |
-
-</details>
-
-<!-- ───────────────────────── PAGE 2 ───────────────────────── -->
-
-### 🛡️ Page 2 · Repository Management &amp; Security
-
-<details>
-<summary><b>📂 Keeping repositories healthy and safe &nbsp;·&nbsp; <code>6 practices</code></b></summary>
-
-<br/>
-
-| 🎓 Practice | 💡 What it covers | 🔗 Repository |
-|:------------|:------------------|:--------------|
-| **Introduction to Repository Management** | Managing repository settings, access, branch protection, and maintenance. | [`skills-introduction-to-repository-management`](https://github.com/blackhebrewisraeli/skills-introduction-to-repository-management) |
-| **Secure your Repository Supply Chain** | Dependabot, the dependency graph, and securing dependencies against vulnerabilities. | [`skills-secure-repository-supply-chain`](https://github.com/blackhebrewisraeli/skills-secure-repository-supply-chain) |
-| **Introduction to Secret Scanning** | Detecting exposed secrets in repositories and responding to leaked credentials. | [`skills-introduction-to-secret-scanning`](https://github.com/blackhebrewisraeli/skills-introduction-to-secret-scanning) |
-| **Introduction to CodeQL** | Static analysis with CodeQL to find vulnerabilities and security issues in code. | [`skills-introduction-to-codeql`](https://github.com/blackhebrewisraeli/skills-introduction-to-codeql) |
-| **Configure CodeQL Language Matrix** | Simplifying code scanning workflows with CodeQL language matrices across projects. | [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) |
-| **Secure Code Game** | Finding and fixing real vulnerability patterns (injection, XSS, path traversal, and more) through hands-on challenges. | [`skills-secure-code-game`](https://github.com/blackhebrewisraeli/skills-secure-code-game) |
-
-</details>
-
-<!-- ───────────────────────── PAGE 3 ───────────────────────── -->
-
-### ⚙️ Page 3 · Automation with GitHub Actions
-
-<details>
-<summary><b>📂 CI/CD and custom workflow automation &nbsp;·&nbsp; <code>7 practices</code></b></summary>
-
-<br/>
-
-| 🎓 Practice | 💡 What it covers | 🔗 Repository |
-|:------------|:------------------|:--------------|
-| **Hello GitHub Actions** | Creating and running a first CI workflow triggered by repository events. | [`skills-hello-github-actions`](https://github.com/blackhebrewisraeli/skills-hello-github-actions) |
-| **Write JavaScript Actions** | Building custom, reusable GitHub Actions in JavaScript. | [`skills-write-javascript-actions`](https://github.com/blackhebrewisraeli/skills-write-javascript-actions) |
-| **Create AI Powered Actions** | Bringing AI/LLM capabilities into Actions workflows. | [`skills-create-ai-powered-actions`](https://github.com/blackhebrewisraeli/skills-create-ai-powered-actions) |
-| **Create and Use Reusable Workflows** | Defining workflow templates and calling them from other repositories or workflows. | [`skills-reusable-workflows`](https://github.com/blackhebrewisraeli/skills-reusable-workflows) |
-| **Test with Actions** | Running automated tests in CI and using workflow status to gate merges. | [`skills-test-with-actions`](https://github.com/blackhebrewisraeli/skills-test-with-actions) |
-| **Publish Docker Images** | Building and publishing container images with GitHub Actions and GitHub Packages / registries. | [`skills-publish-docker-images`](https://github.com/blackhebrewisraeli/skills-publish-docker-images) |
-| **AI in Actions** | Building AI inference workflows and automated issue analysis with GitHub Actions. | [`skills-ai-in-actions`](https://github.com/blackhebrewisraeli/skills-ai-in-actions) |
-
-</details>
-
-<!-- ───────────────────────── PAGE 4 ───────────────────────── -->
-
-### ☁️ Page 4 · Dev Environments &amp; Publishing
-
-<details>
-<summary><b>📂 Building and shipping straight from a repo &nbsp;·&nbsp; <code>3 practices</code></b></summary>
-
-<br/>
-
-| 🎓 Practice | 💡 What it covers | 🔗 Repository |
-|:------------|:------------------|:--------------|
-| **Code with Codespaces** | Developing in a cloud dev environment directly from a repo. | [`skills-code-with-codespaces`](https://github.com/blackhebrewisraeli/skills-code-with-codespaces) |
-| **GitHub Pages** | Publishing a site or blog straight from a repository. | [`skills-github-pages`](https://github.com/blackhebrewisraeli/skills-github-pages) |
-| **Deploy to Azure** | Deploying an app to Azure from GitHub using Actions and cloud deployment workflows. | [`skills-deploy-to-azure`](https://github.com/blackhebrewisraeli/skills-deploy-to-azure) |
-
-</details>
-
-<!-- ───────────────────────── PAGE 5 ───────────────────────── -->
-
-### 🤖 Page 5 · AI, Copilot &amp; Agents
-
-<details>
-<summary><b>📂 Modern AI tooling on the GitHub platform &nbsp;·&nbsp; <code>4 practices</code></b></summary>
-
-<br/>
-
-| 🎓 Practice | 💡 What it covers | 🔗 Repository |
-|:------------|:------------------|:--------------|
-| **Getting Started with GitHub Copilot** | Using Copilot for inline suggestions, chat, and everyday coding workflows in the editor. | [`skills-getting-started-with-github-copilot`](https://github.com/blackhebrewisraeli/skills-getting-started-with-github-copilot) |
-| **Integrate MCP with GitHub Copilot** | Connecting Model Context Protocol (MCP) servers to extend GitHub Copilot. | [`skills-integrate-mcp-with-copilot`](https://github.com/blackhebrewisraeli/skills-integrate-mcp-with-copilot) |
-| **Create Applications with the Copilot CLI** | Building and scaffolding applications directly from the terminal with the Copilot CLI. | [`skills-create-applications-with-the-copilot-cli`](https://github.com/blackhebrewisraeli/skills-create-applications-with-the-copilot-cli) |
-| **Agent Orchestration: Build Your AI Dream Team** | Coordinating multiple AI agents to collaborate on a shared task. | [`skills-agent-orchestration-build-your-ai-dream-team`](https://github.com/blackhebrewisraeli/skills-agent-orchestration-build-your-ai-dream-team) |
-
-</details>
+The track rows are **my grouping** for this log, not an official GitHub curriculum map. Finished rows add up to 30.
 
 ---
 
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                     SKILLS DEMONSTRATED                       ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+## How I treat a course
 
-## 🧠 Skills Demonstrated
+| Status | What I mean |
+|:-------|:------------|
+| **Finished** | I ran the exercise end-to-end in my copy. |
+| **In progress** | A `skills-*` copy exists; steps are still open. |
+| **Not started** | I have not created a practice copy (or I have not logged one). |
+| **Parked** | I paused it on purpose (quota, product access, or not useful right now). |
+| **Archived** | GitHub archived the official course. I am not counting it as leftover practice. |
 
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**🌱 Fundamentals**
-- Branching, committing, merging &amp; clean history
-- Amending, rebasing &amp; squashing commits
-- Pull requests, code review, suggestions &amp; approvals
-- Linking issues, PRs &amp; commits (<code>#</code> refs, keywords)
-- Releases, tags &amp; release-based workflows
-- Conflict resolution on merge
-- Clear, well-structured Markdown
-
-**🛡️ Management &amp; Security**
-- Repository settings, access &amp; branch protection
-- Dependabot &amp; the dependency graph
-- Securing the software supply chain
-- Secret scanning &amp; credential leak prevention
-- CodeQL static analysis &amp; code scanning
-- CodeQL language matrices for multi-language repos
-- Identifying &amp; fixing common vulnerability patterns in code
-
-</td>
-<td valign="top" width="50%">
-
-**⚙️ Automation**
-- CI/CD with GitHub Actions
-- Authoring custom JavaScript Actions
-- Reusable workflows across repos
-- AI-powered workflow automation
-- Automated testing in CI with Actions
-- Building &amp; publishing Docker images from workflows
-- AI inference &amp; automated issue analysis in Actions
-
-**🤖 AI, Copilot &amp; Agents**
-- Copilot inline suggestions &amp; chat in the editor
-- Extending Copilot with MCP servers
-- Building apps with the Copilot CLI
-- Orchestrating multi-agent workflows
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-☁️ **Dev environments &amp; publishing** — Codespaces &nbsp;·&nbsp; GitHub Pages &nbsp;·&nbsp; Azure deploy
-
-</div>
+GitHub Skills does not publish a central “you passed” dashboard. **Finished** here is my own note after the exercise completed — usually Mona's last closed issue, plus the commits in that practice repo.
 
 ---
 
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                      LEARNING ROADMAP                         ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+## Finished practices
 
-## 🗺️ Learning Roadmap
+Grouped the way I actually studied them. Full inventory, including leftovers, is in [CATALOG.md](CATALOG.md).
 
-> **28 logged** · next targets and full plan in **[ROADMAP.md](ROADMAP.md)**
+### Git & GitHub basics · 8 / 8
 
-| Phase | Focus | Next up |
-|:-----:|:------|:--------|
-| **A** | Collaboration &amp; Git depth | ~~Release-based workflow ✓~~ — **Phase A complete** |
-| **B** | Security completion | ~~Secure Code Game ✓~~ — **Phase B complete** |
-| **C** | Actions backlog | ~~Test + Docker ✓~~ · ~~AI in Actions ✓~~ — **Phase C complete** |
-| **D** | Copilot polish *(local editor — no Codespaces)* | [Copilot code review](https://github.com/skills/copilot-code-review) |
-| **E** | Optional | ~~Deploy to Azure ✓~~ · [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) *(if available)* |
+| Practice | Knowledge I practiced | My copy |
+|:---------|:----------------------|:--------|
+| Introduction to GitHub | Repositories, branches, commits, pull requests | [`skills-introduction-to-github`](https://github.com/blackhebrewisraeli/skills-introduction-to-github) |
+| Introduction to Git | Clone, stage, commit, and push from the command line | [`skills-introduction-to-git`](https://github.com/blackhebrewisraeli/skills-introduction-to-git) |
+| Change Commit History | Amend, interactive rebase, squash, reorder | [`skills-change-commit-history`](https://github.com/blackhebrewisraeli/skills-change-commit-history) |
+| Communicate using Markdown | Headings, lists, links, tables, code blocks in issues and docs | [`skills-communicate-using-markdown`](https://github.com/blackhebrewisraeli/skills-communicate-using-markdown) |
+| Review Pull Requests | Reviewers, comments, suggestions, approve, merge | [`skills-review-pull-requests`](https://github.com/blackhebrewisraeli/skills-review-pull-requests) |
+| Connect the Dots | Cross-linking issues, pull requests, and commits | [`skills-connect-the-dots`](https://github.com/blackhebrewisraeli/skills-connect-the-dots) |
+| Release-based Workflow | Releases, tags, release workflow | [`skills-release-based-workflow`](https://github.com/blackhebrewisraeli/skills-release-based-workflow) |
+| Resolve Merge Conflicts | Reading conflict markers and resolving them safely | [`skills-resolve-merge-conflicts`](https://github.com/blackhebrewisraeli/skills-resolve-merge-conflicts) |
 
-<details>
-<summary><b>📋 Quick start — how to run the next practice</b></summary>
+### Repository management & security · 6 / 6
 
-<br/>
+| Practice | Knowledge I practiced | My copy |
+|:---------|:----------------------|:--------|
+| Introduction to Repository Management | Settings, access, branch protection, healthy-project extras | [`skills-introduction-to-repository-management`](https://github.com/blackhebrewisraeli/skills-introduction-to-repository-management) |
+| Secure your Repository Supply Chain | Dependabot, dependency graph, vulnerable dependencies | [`skills-secure-repository-supply-chain`](https://github.com/blackhebrewisraeli/skills-secure-repository-supply-chain) |
+| Introduction to Secret Scanning | Finding leaked secrets and responding to them | [`skills-introduction-to-secret-scanning`](https://github.com/blackhebrewisraeli/skills-introduction-to-secret-scanning) |
+| Introduction to CodeQL | Turning on CodeQL code scanning | [`skills-introduction-to-codeql`](https://github.com/blackhebrewisraeli/skills-introduction-to-codeql) |
+| Configure CodeQL Language Matrix | Language matrices for multi-language scanning | [`skills-configure-codeql-language-matrix`](https://github.com/blackhebrewisraeli/skills-configure-codeql-language-matrix) |
+| Secure Code Game | Spotting and fixing common vulnerability patterns | [`skills-secure-code-game`](https://github.com/blackhebrewisraeli/skills-secure-code-game) |
 
-1. Open the course at [skills.github.com](https://skills.github.com/) or the `@skills` repo link in [ROADMAP.md](ROADMAP.md).
-2. Click **Use this template** → create a **public** repo (saves Pro Actions minutes).
-3. Wait ~20 seconds, then check the **Issues** tab for Mona's Step 1.
-4. Complete each step; close issues as you finish.
-5. Tell me when done — I'll add the repo here and bump the count.
+### Automation with GitHub Actions · 8 / 10
 
-</details>
+| Practice | Knowledge I practiced | My copy |
+|:---------|:----------------------|:--------|
+| Hello GitHub Actions | First workflow, events, jobs, steps | [`skills-hello-github-actions`](https://github.com/blackhebrewisraeli/skills-hello-github-actions) |
+| Write JavaScript Actions | Custom reusable JavaScript actions | [`skills-write-javascript-actions`](https://github.com/blackhebrewisraeli/skills-write-javascript-actions) |
+| Create AI Powered Actions | Actions that call GitHub Models | [`skills-create-ai-powered-actions`](https://github.com/blackhebrewisraeli/skills-create-ai-powered-actions) |
+| Create and Use Reusable Workflows | Shared workflows called from other workflows | [`skills-reusable-workflows`](https://github.com/blackhebrewisraeli/skills-reusable-workflows) |
+| Test with Actions | Tests in CI, status as a merge signal | [`skills-test-with-actions`](https://github.com/blackhebrewisraeli/skills-test-with-actions) |
+| Publish Docker Images | Build and publish images from Actions | [`skills-publish-docker-images`](https://github.com/blackhebrewisraeli/skills-publish-docker-images) |
+| AI in Actions | Inference / issue analysis inside workflows | [`skills-ai-in-actions`](https://github.com/blackhebrewisraeli/skills-ai-in-actions) |
+| Deploy to Azure | Deploy an app from GitHub to Azure | [`skills-deploy-to-azure`](https://github.com/blackhebrewisraeli/skills-deploy-to-azure) |
+
+Still open in this track: **workflow artifacts** and **ship with quality**.
+
+### Dev environments & publishing · 2 / 2
+
+| Practice | Knowledge I practiced | My copy |
+|:---------|:----------------------|:--------|
+| Code with Codespaces | Cloud editor attached to a repository | [`skills-code-with-codespaces`](https://github.com/blackhebrewisraeli/skills-code-with-codespaces) |
+| GitHub Pages | Publish a site from a repository | [`skills-github-pages`](https://github.com/blackhebrewisraeli/skills-github-pages) |
+
+Azure deploy is listed under Actions so it is not counted twice.
+
+### Copilot, agents & AI · 6 finished · 6 still open
+
+| Practice | Knowledge I practiced | My copy |
+|:---------|:----------------------|:--------|
+| Getting Started with GitHub Copilot | Inline suggestions and chat in the editor | [`skills-getting-started-with-github-copilot`](https://github.com/blackhebrewisraeli/skills-getting-started-with-github-copilot) |
+| Integrate MCP with GitHub Copilot | Connecting MCP servers to Copilot | [`skills-integrate-mcp-with-copilot`](https://github.com/blackhebrewisraeli/skills-integrate-mcp-with-copilot) |
+| Create Applications with the Copilot CLI | Building from the terminal with Copilot CLI | [`skills-create-applications-with-the-copilot-cli`](https://github.com/blackhebrewisraeli/skills-create-applications-with-the-copilot-cli) |
+| Agent Orchestration: Build Your AI Dream Team | Coordinating multiple agents on one task | [`skills-agent-orchestration-build-your-ai-dream-team`](https://github.com/blackhebrewisraeli/skills-agent-orchestration-build-your-ai-dream-team) |
+| Agentic Workflows That Read the Room | Agentic workflow setup (finished; previously left out of the old showcase) | [`skills-agentic-workflows-that-read-the-room`](https://github.com/blackhebrewisraeli/skills-agentic-workflows-that-read-the-room) |
+| Copilot Code Review | Copilot reviews in the editor and on PRs, review instructions, automatic reviews via rulesets | [`skills-copilot-code-review`](https://github.com/blackhebrewisraeli/skills-copilot-code-review) |
+
+Still open: customize Copilot, agent mode apps, coding agent, Spaces, legacy modernization, Copilot App idea-to-merge.
 
 ---
 
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                   WHY A CERTIFICATION?                        ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+## Leftover practice (short list)
 
-## 🎯 Why a Certification?
+The working queue, with reasons, lives in **[ROADMAP.md](ROADMAP.md)**.
 
-I'm pursuing the [**GitHub Foundations**](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) certification to formally validate my fluency with Git and the GitHub platform. These hands-on practices are the practical backbone of that preparation — each one reinforces a concept the exam assesses, and several (supply-chain security, AI-powered Actions, agent orchestration) go beyond the syllabus into modern, real-world tooling.
+**Next up (local editor — skip Codespaces):**
+
+1. [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) — no copy yet; [start a public copy →](https://github.com/new?template_owner=skills&template_name=customize-your-github-copilot-experience&owner=%40me&name=skills-customize-your-github-copilot-experience&description=Exercise:+Customize+Your+GitHub+Copilot+Experience&visibility=public)
+
+**Not started (active catalog):** workflow artifacts · ship with quality · Copilot agent mode · expand team with Copilot · Copilot Spaces · modernize legacy code · Idea to App with Spark · Idea to Merge with the Copilot App
+
+**Parked:** [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) (copy exists; Codespaces / Azure DevOps) · org-only Copilot team features until I have access
 
 ---
 
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                   BEYOND THE PRACTICES                        ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+## How I start the next course
 
-## 🚀 Beyond the Practices
+1. Open the course from [learn.github.com/skills](https://learn.github.com/skills/) or the `@skills` repo in [ROADMAP.md](ROADMAP.md).
+2. Use the template → create a **public** practice repo (keeps Actions minutes off the private-repo quota).
+3. Wait ~20 seconds, then follow Step 1 in **Issues**.
+4. Close steps as Mona confirms them.
+5. When it is finished, update this log:
 
-The exercises above prove the *mechanics*. For the real work where I apply these skills, see the pinned projects on my [**profile**](https://github.com/blackhebrewisraeli) — including Java, C, Python/SQL, and Spring Boot projects, plus container and systems work.
+   - add or move the row in [CATALOG.md](CATALOG.md)
+   - bump the counts on this page
+   - add a short “what I practiced” line in [KNOWLEDGE.md](KNOWLEDGE.md)
+   - drop it from [ROADMAP.md](ROADMAP.md)
+
+**Constraint I am working around:** Codespaces quota is exhausted. Prefer browser or local-clone exercises until it resets.
+
+---
+
+## Pages in this log
+
+| File | Role |
+|:-----|:-----|
+| [README.md](README.md) | Snapshot and finished list |
+| [CATALOG.md](CATALOG.md) | Every official Skills exercise I know about, with status |
+| [KNOWLEDGE.md](KNOWLEDGE.md) | Knowledge practiced vs knowledge not practiced yet |
+| [ROADMAP.md](ROADMAP.md) | Leftover queue and next exercise |
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969da,100:2da44e&height=120&section=footer" alt="footer" width="100%" />
 
-<sub>Maintained by <a href="https://github.com/blackhebrewisraeli">@blackhebrewisraeli</a> · Built as part of my GitHub Foundations preparation.</sub>
+<sub>Personal practice log · <a href="https://github.com/blackhebrewisraeli">@blackhebrewisraeli</a> · Not an official GitHub document</sub>
 
 </div>
