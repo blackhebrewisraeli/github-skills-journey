@@ -78,8 +78,9 @@ I have finished exercises that walked through:
 - Attaching an MCP server to Copilot
 - Coordinating more than one agent on a shared task
 - Standing up an agentic workflow (the “read the room” lab)
+- Asking Copilot to review code in the editor and on pull requests, adding review instructions, and turning on automatic PR reviews with repository rulesets
 
-**Finished in:** Getting Started with GitHub Copilot · Create Applications with the Copilot CLI · Integrate MCP with Copilot · Agent Orchestration · Agentic Workflows That Read the Room
+**Finished in:** Getting Started with GitHub Copilot · Create Applications with the Copilot CLI · Integrate MCP with Copilot · Agent Orchestration · Agentic Workflows That Read the Room · Copilot Code Review
 
 ---
 
@@ -91,8 +92,7 @@ These are gaps in *this log*, not a claim that I have never touched the product.
 
 | Topic | Course still open | Why it is still open |
 |:------|:------------------|:---------------------|
-| Copilot as a pull-request reviewer | [Copilot code review](https://github.com/skills/copilot-code-review) | Copy created; exercise not finished. **Next.** |
-| Custom instructions, prompt files, chat modes | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started; local editor |
+| Custom instructions, agent skills, and custom agents | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started; local editor. **Next.** |
 | Multi-file apps from agent mode | [Build applications with Copilot agent mode](https://github.com/skills/build-applications-w-copilot-agent-mode) | Not started |
 | Assigning issues to Copilot coding agent | [Expand your team with Copilot](https://github.com/skills/expand-your-team-with-copilot) | Parked — usually needs team / org access |
 | Copilot Spaces as shared project context | [Scale institutional knowledge using Copilot Spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Parked — product access |

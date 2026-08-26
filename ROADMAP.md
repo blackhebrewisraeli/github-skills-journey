@@ -5,20 +5,19 @@ What I have **not** finished yet, and what I am running next.
 This is a personal queue for [GitHub Skills](https://learn.github.com/skills/) exercises. It is not a study plan for any exam or credential.
 
 **Account notes:** GitHub Pro · Codespaces quota exhausted — prefer browser or local clone  
-**Active catalog:** 40 · **Finished:** 29 · **In progress:** 2 · **Not started:** 9  
-**Last updated:** 23 August 2026 (tracker rebuild; catalog re-checked)
+**Active catalog:** 40 · **Finished:** 30 · **In progress:** 1 · **Not started:** 9  
+**Last updated:** 26 August 2026 (logged Copilot code review)
 
 ```mermaid
 flowchart LR
-    subgraph done [Finished — 29]
+    subgraph done [Finished — 30]
         G[Git and GitHub ×8]
         S[Security ×6]
         A[Actions ×8]
         P[Pages and Codespaces ×2]
-        C[Copilot and agents ×5]
+        C[Copilot and agents ×6]
     end
     subgraph next [Next — local editor]
-        CR[Copilot code review]
         CU[Customize Copilot]
     end
     subgraph later [Later or parked]
@@ -34,12 +33,24 @@ flowchart LR
 
 ## Next
 
-| # | Course | Status | How I will run it |
-|:--|:-------|:-------|:------------------|
-| 1 | [Copilot code review](https://github.com/skills/copilot-code-review) | **In progress** · copy already exists | [Open my copy](https://github.com/blackhebrewisraeli/skills-copilot-code-review) · **local editor, skip Codespaces** |
-| 2 | [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started | [Start course](https://github.com/skills/customize-your-github-copilot-experience) · local editor |
+**[Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience)** — not started · **local editor, skip Codespaces** · about 30 minutes
 
-Finish **1** before opening a new template for **2**, so this log stays honest about in-progress copies.
+| | |
+|:--|:--|
+| Official course | https://github.com/skills/customize-your-github-copilot-experience |
+| One-click public copy | [Create `skills-customize-your-github-copilot-experience`](https://github.com/new?template_owner=skills&template_name=customize-your-github-copilot-experience&owner=%40me&name=skills-customize-your-github-copilot-experience&description=Exercise:+Customize+Your+GitHub+Copilot+Experience&visibility=public) |
+| Prerequisite I already finished | [Getting started with GitHub Copilot](https://github.com/blackhebrewisraeli/skills-getting-started-with-github-copilot) |
+| What this one covers | Repo-wide custom instructions, file/folder instructions, agent skills, and custom agents |
+
+**How I will run it**
+
+1. Open the one-click public copy link above (keep the repo **public**).
+2. Wait ~20 seconds, then open **Issues** and refresh until Step 1 appears.
+3. If the course offers Codespaces, clone locally and use the editor I already have.
+4. Work the steps Mona posts; close them as they complete.
+5. When the last issue closes, tell the log to mark this finished.
+
+Do not start a second leftover course until this copy is finished (or log it the same day in [CATALOG.md](CATALOG.md)).
 
 ---
 
@@ -49,8 +60,7 @@ Finish **1** before opening a new template for **2**, so this log stays honest a
 
 | Course | Status | Track |
 |:-------|:-------|:------|
-| [Copilot code review](https://github.com/skills/copilot-code-review) | In progress | Copilot |
-| [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started | Copilot |
+| [Customize your GitHub Copilot experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started · **Next** | Copilot |
 | [Build applications with Copilot agent mode](https://github.com/skills/build-applications-w-copilot-agent-mode) | Not started | Copilot |
 | [Modernize your legacy code with GitHub Copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started | Copilot |
 | [Workflow artifacts](https://github.com/skills/workflow-artifacts) | Not started | Actions |
@@ -83,7 +93,7 @@ Full table: [CATALOG.md](CATALOG.md). Short list:
 - **Security (6):** Repository Management, Supply Chain, Secret Scanning, CodeQL, CodeQL language matrix, Secure Code Game
 - **Actions (8):** Hello Actions, Test with Actions, Reusable Workflows, JavaScript Actions, Docker images, Deploy to Azure, AI in Actions, AI-powered Actions
 - **Publishing (2 extra):** Codespaces, GitHub Pages *(Deploy to Azure counted under Actions)*
-- **Copilot / agents (5):** Getting started with Copilot, Copilot CLI, MCP + Copilot, Agent orchestration, Agentic workflows that read the room
+- **Copilot / agents (6):** Getting started with Copilot, Copilot CLI, MCP + Copilot, Agent orchestration, Agentic workflows that read the room, Copilot code review
 
 ---
 
@@ -108,7 +118,7 @@ These are environment reminders, not courses:
 
 - Prefer **public** practice repos so Actions, CodeQL, and secret scanning behave the way the exercise expects on an individual Pro account.
 - Private-repo Actions count against the monthly minutes on Pro.
-- Do not start a second in-progress copy while Copilot code review is still open, unless I also log it in [CATALOG.md](CATALOG.md) the same day.
+- Do not start a second in-progress copy while Customize Copilot is still open, unless I also log it in [CATALOG.md](CATALOG.md) the same day.
 
 ---
 
@@ -116,7 +126,7 @@ These are environment reminders, not courses:
 
 ```
 Next
-[ ] Copilot code review          (copy already exists)
+[x] Copilot code review
 [ ] Customize Copilot experience
 
 Actions leftovers

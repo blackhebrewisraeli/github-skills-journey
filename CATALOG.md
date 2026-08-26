@@ -23,8 +23,8 @@ This is my inventory, not GitHub's. Course names and templates change. When the 
 
 | Status | Count |
 |:-------|------:|
-| Finished | 29 |
-| In progress | 2 |
+| Finished | 30 |
+| In progress | 1 |
 | Not started | 9 |
 | Active catalog | 40 |
 | Official archived (not queued) | 2 |
@@ -89,7 +89,7 @@ Grouped by how I study them. Official `@skills` names are in the **Course** colu
 | Code with Codespaces | [skills/code-with-codespaces](https://github.com/skills/code-with-codespaces) | Finished | [skills-code-with-codespaces](https://github.com/blackhebrewisraeli/skills-code-with-codespaces) | Done before the current Codespaces quota bind |
 | GitHub Pages | [skills/github-pages](https://github.com/skills/github-pages) | Finished | [skills-github-pages](https://github.com/blackhebrewisraeli/skills-github-pages) | |
 
-Deploy to Azure is listed under Actions. I do not double-count it in the 29.
+Deploy to Azure is listed under Actions. I do not double-count it in the 30.
 
 ### Copilot, agents & AI
 
@@ -100,8 +100,8 @@ Deploy to Azure is listed under Actions. I do not double-count it in the 29.
 | Integrate MCP with Copilot | [skills/integrate-mcp-with-copilot](https://github.com/skills/integrate-mcp-with-copilot) | Finished | [skills-integrate-mcp-with-copilot](https://github.com/blackhebrewisraeli/skills-integrate-mcp-with-copilot) | |
 | Agent Orchestration: Build Your AI Dream Team | [skills/agent-orchestration-build-your-ai-dream-team](https://github.com/skills/agent-orchestration-build-your-ai-dream-team) | Finished | [skills-agent-orchestration-build-your-ai-dream-team](https://github.com/blackhebrewisraeli/skills-agent-orchestration-build-your-ai-dream-team) | |
 | Agentic Workflows That Read the Room | [skills/agentic-workflows-that-read-the-room](https://github.com/skills/agentic-workflows-that-read-the-room) | Finished | [skills-agentic-workflows-that-read-the-room](https://github.com/blackhebrewisraeli/skills-agentic-workflows-that-read-the-room) | Finished in-repo; was omitted from the old showcase list |
-| Copilot Code Review | [skills/copilot-code-review](https://github.com/skills/copilot-code-review) | In progress | [skills-copilot-code-review](https://github.com/blackhebrewisraeli/skills-copilot-code-review) | Copy created 2 Aug 2026; Step 1 still open. **Next.** Prefer local editor. |
-| Customize Your GitHub Copilot Experience | [skills/customize-your-github-copilot-experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started | — | Local editor |
+| Copilot Code Review | [skills/copilot-code-review](https://github.com/skills/copilot-code-review) | Finished | [skills-copilot-code-review](https://github.com/blackhebrewisraeli/skills-copilot-code-review) | Finished 26 Aug 2026. Local editor. |
+| Customize Your GitHub Copilot Experience | [skills/customize-your-github-copilot-experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started | — | **Next.** Local editor. ~30 min. |
 | Build Applications with Copilot Agent Mode | [skills/build-applications-w-copilot-agent-mode](https://github.com/skills/build-applications-w-copilot-agent-mode) | Not started | — | |
 | Expand Your Team with Copilot | [skills/expand-your-team-with-copilot](https://github.com/skills/expand-your-team-with-copilot) | Not started · Parked | — | Needs Copilot coding agent / usually org or paid team access |
 | Scale Institutional Knowledge Using Copilot Spaces | [skills/scale-institutional-knowledge-using-copilot-spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Not started · Parked | — | Needs Copilot Spaces |
