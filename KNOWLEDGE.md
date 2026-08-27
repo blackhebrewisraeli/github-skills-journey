@@ -80,8 +80,9 @@ I have finished exercises that walked through:
 - Standing up an agentic workflow (the “read the room” lab)
 - Asking Copilot to review code in the editor and on pull requests, adding review instructions, and turning on automatic PR reviews with repository rulesets
 - Writing repo-wide and file/folder custom instructions, plus agent skills and custom agents so Copilot follows project standards
+- Using Copilot agent mode to generate a multi-tier app (presentation, logic, data) from natural-language requirements
 
-**Finished in:** Getting Started with GitHub Copilot · Create Applications with the Copilot CLI · Integrate MCP with Copilot · Agent Orchestration · Agentic Workflows That Read the Room · Copilot Code Review · Customize Your GitHub Copilot Experience
+**Finished in:** Getting Started with GitHub Copilot · Create Applications with the Copilot CLI · Integrate MCP with Copilot · Agent Orchestration · Agentic Workflows That Read the Room · Copilot Code Review · Customize Your GitHub Copilot Experience · Build Applications with Copilot Agent Mode
 
 ---
 
@@ -93,10 +94,9 @@ These are gaps in *this log*, not a claim that I have never touched the product.
 
 | Topic | Course still open | Why it is still open |
 |:------|:------------------|:---------------------|
-| Multi-file apps from agent mode | [Build applications with Copilot agent mode](https://github.com/skills/build-applications-w-copilot-agent-mode) | Not started. **Next.** |
 | Assigning issues to Copilot coding agent | [Expand your team with Copilot](https://github.com/skills/expand-your-team-with-copilot) | Parked — usually needs team / org access |
 | Copilot Spaces as shared project context | [Scale institutional knowledge using Copilot Spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Parked — product access |
-| Legacy (COBOL-style) modernization with Copilot | [Modernize your legacy code with GitHub Copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started |
+| Refactoring legacy code with Copilot | [Modernize your legacy code with GitHub Copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started. **Next.** |
 | Idea → PR inside the Copilot App | [Idea to Merge with the Copilot App](https://github.com/skills/idea-to-merge-with-the-copilot-app) | Not started |
 
 ### Actions I have not finished
