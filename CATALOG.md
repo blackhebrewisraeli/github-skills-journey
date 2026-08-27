@@ -23,9 +23,9 @@ This is my inventory, not GitHub's. Course names and templates change. When the 
 
 | Status | Count |
 |:-------|------:|
-| Finished | 30 |
+| Finished | 32 |
 | In progress | 1 |
-| Not started | 9 |
+| Not started | 7 |
 | Active catalog | 40 |
 | Official archived (not queued) | 2 |
 
@@ -89,7 +89,7 @@ Grouped by how I study them. Official `@skills` names are in the **Course** colu
 | Code with Codespaces | [skills/code-with-codespaces](https://github.com/skills/code-with-codespaces) | Finished | [skills-code-with-codespaces](https://github.com/blackhebrewisraeli/skills-code-with-codespaces) | Done before the current Codespaces quota bind |
 | GitHub Pages | [skills/github-pages](https://github.com/skills/github-pages) | Finished | [skills-github-pages](https://github.com/blackhebrewisraeli/skills-github-pages) | |
 
-Deploy to Azure is listed under Actions. I do not double-count it in the 30.
+Deploy to Azure is listed under Actions. I do not double-count it in the 32.
 
 ### Copilot, agents & AI
 
@@ -101,11 +101,11 @@ Deploy to Azure is listed under Actions. I do not double-count it in the 30.
 | Agent Orchestration: Build Your AI Dream Team | [skills/agent-orchestration-build-your-ai-dream-team](https://github.com/skills/agent-orchestration-build-your-ai-dream-team) | Finished | [skills-agent-orchestration-build-your-ai-dream-team](https://github.com/blackhebrewisraeli/skills-agent-orchestration-build-your-ai-dream-team) | |
 | Agentic Workflows That Read the Room | [skills/agentic-workflows-that-read-the-room](https://github.com/skills/agentic-workflows-that-read-the-room) | Finished | [skills-agentic-workflows-that-read-the-room](https://github.com/blackhebrewisraeli/skills-agentic-workflows-that-read-the-room) | Finished in-repo; was omitted from the old showcase list |
 | Copilot Code Review | [skills/copilot-code-review](https://github.com/skills/copilot-code-review) | Finished | [skills-copilot-code-review](https://github.com/blackhebrewisraeli/skills-copilot-code-review) | Finished 26 Aug 2026. Local editor. |
-| Customize Your GitHub Copilot Experience | [skills/customize-your-github-copilot-experience](https://github.com/skills/customize-your-github-copilot-experience) | Not started | — | **Next.** Local editor. ~30 min. |
-| Build Applications with Copilot Agent Mode | [skills/build-applications-w-copilot-agent-mode](https://github.com/skills/build-applications-w-copilot-agent-mode) | Not started | — | |
+| Customize Your GitHub Copilot Experience | [skills/customize-your-github-copilot-experience](https://github.com/skills/customize-your-github-copilot-experience) | Finished | [skills-customize-your-github-copilot-experience](https://github.com/blackhebrewisraeli/skills-customize-your-github-copilot-experience) | Finished 26 Aug 2026. |
+| Build Applications with Copilot Agent Mode | [skills/build-applications-w-copilot-agent-mode](https://github.com/skills/build-applications-w-copilot-agent-mode) | Finished | [skills-build-applications-w-copilot-agent-mode](https://github.com/blackhebrewisraeli/skills-build-applications-w-copilot-agent-mode) | Finished 27 Aug 2026. |
 | Expand Your Team with Copilot | [skills/expand-your-team-with-copilot](https://github.com/skills/expand-your-team-with-copilot) | Not started · Parked | — | Needs Copilot coding agent / usually org or paid team access |
 | Scale Institutional Knowledge Using Copilot Spaces | [skills/scale-institutional-knowledge-using-copilot-spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Not started · Parked | — | Needs Copilot Spaces |
-| Modernize Your Legacy Code with GitHub Copilot | [skills/modernize-your-legacy-code-with-github-copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started | — | Longer lab (~2 hours in older write-ups) |
+| Modernize Your Legacy Code with GitHub Copilot | [skills/modernize-your-legacy-code-with-github-copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started | — | **Next.** Local editor. Official write-up: under 30 min. |
 | Idea to Merge with the Copilot App | [skills/idea-to-merge-with-the-copilot-app](https://github.com/skills/idea-to-merge-with-the-copilot-app) | Not started | — | Newer catalog item |
 
 ### Cloud, migration & product labs
