@@ -23,9 +23,9 @@ This is my inventory, not GitHub's. Course names and templates change. When the 
 
 | Status | Count |
 |:-------|------:|
-| Finished | 32 |
+| Finished | 33 |
 | In progress | 1 |
-| Not started | 7 |
+| Not started | 6 |
 | Active catalog | 40 |
 | Official archived (not queued) | 2 |
 
@@ -77,7 +77,7 @@ Grouped by how I study them. Official `@skills` names are in the **Course** colu
 | Deploy to Azure | [skills/deploy-to-azure](https://github.com/skills/deploy-to-azure) | Finished | [skills-deploy-to-azure](https://github.com/blackhebrewisraeli/skills-deploy-to-azure) |
 | AI in Actions | [skills/ai-in-actions](https://github.com/skills/ai-in-actions) | Finished | [skills-ai-in-actions](https://github.com/blackhebrewisraeli/skills-ai-in-actions) |
 | Create AI-Powered Actions | [skills/create-ai-powered-actions](https://github.com/skills/create-ai-powered-actions) | Finished | [skills-create-ai-powered-actions](https://github.com/blackhebrewisraeli/skills-create-ai-powered-actions) |
-| Workflow Artifacts | [skills/workflow-artifacts](https://github.com/skills/workflow-artifacts) | Not started | — |
+| Workflow Artifacts | [skills/workflow-artifacts](https://github.com/skills/workflow-artifacts) | Not started · **Next** | — |
 | Ship with Quality | [skills/ship-with-quality](https://github.com/skills/ship-with-quality) | Not started | — |
 
 **Track leftover:** 2.
@@ -89,7 +89,7 @@ Grouped by how I study them. Official `@skills` names are in the **Course** colu
 | Code with Codespaces | [skills/code-with-codespaces](https://github.com/skills/code-with-codespaces) | Finished | [skills-code-with-codespaces](https://github.com/blackhebrewisraeli/skills-code-with-codespaces) | Done before the current Codespaces quota bind |
 | GitHub Pages | [skills/github-pages](https://github.com/skills/github-pages) | Finished | [skills-github-pages](https://github.com/blackhebrewisraeli/skills-github-pages) | |
 
-Deploy to Azure is listed under Actions. I do not double-count it in the 32.
+Deploy to Azure is listed under Actions. I do not double-count it in the 33.
 
 ### Copilot, agents & AI
 
@@ -105,7 +105,7 @@ Deploy to Azure is listed under Actions. I do not double-count it in the 32.
 | Build Applications with Copilot Agent Mode | [skills/build-applications-w-copilot-agent-mode](https://github.com/skills/build-applications-w-copilot-agent-mode) | Finished | [skills-build-applications-w-copilot-agent-mode](https://github.com/blackhebrewisraeli/skills-build-applications-w-copilot-agent-mode) | Finished 27 Aug 2026. |
 | Expand Your Team with Copilot | [skills/expand-your-team-with-copilot](https://github.com/skills/expand-your-team-with-copilot) | Not started · Parked | — | Needs Copilot coding agent / usually org or paid team access |
 | Scale Institutional Knowledge Using Copilot Spaces | [skills/scale-institutional-knowledge-using-copilot-spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Not started · Parked | — | Needs Copilot Spaces |
-| Modernize Your Legacy Code with GitHub Copilot | [skills/modernize-your-legacy-code-with-github-copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started | — | **Next.** Local editor. Official write-up: under 30 min. |
+| Modernize Your Legacy Code with GitHub Copilot | [skills/modernize-your-legacy-code-with-github-copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Finished | [skills-modernize-your-legacy-code-with-github-copilot](https://github.com/blackhebrewisraeli/skills-modernize-your-legacy-code-with-github-copilot) | Finished 28 Aug 2026. |
 | Idea to Merge with the Copilot App | [skills/idea-to-merge-with-the-copilot-app](https://github.com/skills/idea-to-merge-with-the-copilot-app) | Not started | — | Newer catalog item |
 
 ### Cloud, migration & product labs

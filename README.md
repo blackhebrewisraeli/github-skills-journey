@@ -6,9 +6,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2da44e,100:0969da&height=180&section=header&text=GitHub%20Skills%20Progress&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Personal%20practice%20log%20%E2%80%94%20what%20I%20finished%2C%20what%20is%20left&descSize=16&descAlignY=62" alt="GitHub Skills Progress" width="100%" />
 
-[![Finished](https://img.shields.io/badge/Finished-32%20%2F%2040-2da44e?style=for-the-badge)](CATALOG.md)
+[![Finished](https://img.shields.io/badge/Finished-33%20%2F%2040-2da44e?style=for-the-badge)](CATALOG.md)
 [![In progress](https://img.shields.io/badge/In%20progress-1-d4a017?style=for-the-badge)](ROADMAP.md)
-[![Not started](https://img.shields.io/badge/Not%20started-7-6e7781?style=for-the-badge)](ROADMAP.md)
+[![Not started](https://img.shields.io/badge/Not%20started-6-6e7781?style=for-the-badge)](ROADMAP.md)
 [![Catalog](https://img.shields.io/badge/Official%20catalog-GitHub%20Skills-0969da?style=for-the-badge)](https://learn.github.com/skills/)
 
 </div>
@@ -37,26 +37,26 @@ This log is **personal study notes**. It is not:
 - a substitute for GitHub's own course pages
 - a claim that I am “certified,” “validated,” or endorsed by GitHub
 
-If a number appears here (32 / 40, a track total, a progress bar), it only means **how many Skills exercises I have finished in my own copies**. It does not mean I passed a test.
+If a number appears here (33 / 40, a track total, a progress bar), it only means **how many Skills exercises I have finished in my own copies**. It does not mean I passed a test.
 
 ---
 
 ## Snapshot
 
-Last catalog check: **23 August 2026** against the public [`@skills`](https://github.com/skills) organization. Last practice logged: **27 August 2026** (Copilot agent mode).
+Last catalog check: **23 August 2026** against the public [`@skills`](https://github.com/skills) organization. Last practice logged: **28 August 2026** (Modernize legacy code).
 
 | | Count | Meaning |
 |:--|:-----:|:--------|
 | **Active Skills exercises** | 40 | Public course templates that are not archived |
-| **Finished** | 32 | I completed the exercise in my copy |
+| **Finished** | 33 | I completed the exercise in my copy |
 | **In progress** | 1 | I created a copy; the exercise is not finished |
-| **Not started** | 7 | Still in the catalog; no finished copy |
+| **Not started** | 6 | Still in the catalog; no finished copy |
 | **Archived official courses** | 2 | Retired by GitHub; not in the active queue |
 
 ```text
-Finished     ████████████████████████████████░░░░░░░░  32 / 40
+Finished     █████████████████████████████████░░░░░░░  33 / 40
 In progress  ░                                         1
-Not started  ░░░░░░░                                   7
+Not started  ░░░░░░                                    6
 ```
 
 | Track | Finished | Still open | Open items |
@@ -65,10 +65,10 @@ Not started  ░░░░░░░                                   7
 | Repository management & security | 6 | 0 | — |
 | Automation with Actions | 8 | 2 | [Workflow artifacts](https://github.com/skills/workflow-artifacts) · [Ship with quality](https://github.com/skills/ship-with-quality) |
 | Dev environments & publishing | 2 | 0 | Codespaces · Pages *(Azure deploy is counted under Actions)* |
-| Copilot, agents & AI | 8 | 4 | See [ROADMAP.md](ROADMAP.md) |
+| Copilot, agents & AI | 9 | 3 | See [ROADMAP.md](ROADMAP.md) |
 | Cloud, migration & Spark | 0 | 2 | Spark · ADO migrate *(started)* |
 
-The track rows are **my grouping** for this log, not an official GitHub curriculum map. Finished rows add up to 32.
+The track rows are **my grouping** for this log, not an official GitHub curriculum map. Finished rows add up to 33.
 
 ---
 
@@ -138,7 +138,7 @@ Still open in this track: **workflow artifacts** and **ship with quality**.
 
 Azure deploy is listed under Actions so it is not counted twice.
 
-### Copilot, agents & AI · 8 finished · 4 still open
+### Copilot, agents & AI · 9 finished · 3 still open
 
 | Practice | Knowledge I practiced | My copy |
 |:---------|:----------------------|:--------|
@@ -150,8 +150,9 @@ Azure deploy is listed under Actions so it is not counted twice.
 | Copilot Code Review | Copilot reviews in the editor and on PRs, review instructions, automatic reviews via rulesets | [`skills-copilot-code-review`](https://github.com/blackhebrewisraeli/skills-copilot-code-review) |
 | Customize Your GitHub Copilot Experience | Repo-wide and file/folder custom instructions, agent skills, and custom agents | [`skills-customize-your-github-copilot-experience`](https://github.com/blackhebrewisraeli/skills-customize-your-github-copilot-experience) |
 | Build Applications with Copilot Agent Mode | Agent mode building a multi-tier app from natural-language requirements | [`skills-build-applications-w-copilot-agent-mode`](https://github.com/blackhebrewisraeli/skills-build-applications-w-copilot-agent-mode) |
+| Modernize Your Legacy Code with GitHub Copilot | Explain COBOL-style legacy code, sketch data flow, generate modern Node snippets, replace and test | [`skills-modernize-your-legacy-code-with-github-copilot`](https://github.com/blackhebrewisraeli/skills-modernize-your-legacy-code-with-github-copilot) |
 
-Still open: coding agent, Spaces, legacy modernization, Copilot App idea-to-merge.
+Still open: coding agent, Spaces, Copilot App idea-to-merge.
 
 ---
 
@@ -159,11 +160,11 @@ Still open: coding agent, Spaces, legacy modernization, Copilot App idea-to-merg
 
 The working queue, with reasons, lives in **[ROADMAP.md](ROADMAP.md)**.
 
-**Next up (local editor — skip Codespaces):**
+**Next up (public Actions — skip Codespaces):**
 
-1. [Modernize your legacy code with GitHub Copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) — no copy yet; [start a public copy →](https://github.com/new?template_owner=skills&template_name=modernize-your-legacy-code-with-github-copilot&owner=%40me&name=skills-modernize-your-legacy-code-with-github-copilot&description=Exercise:+Modernize+Your+Legacy+Code+with+GitHub+Copilot&visibility=public)
+1. [Workflow artifacts](https://github.com/skills/workflow-artifacts) — no copy yet; [start a public copy →](https://github.com/new?template_owner=skills&template_name=workflow-artifacts&owner=%40me&name=skills-workflow-artifacts&description=Exercise:+Work+with+Workflow+Artifacts&visibility=public)
 
-**Not started (active catalog):** workflow artifacts · ship with quality · expand team with Copilot · Copilot Spaces · Idea to App with Spark · Idea to Merge with the Copilot App
+**Not started (active catalog):** ship with quality · expand team with Copilot · Copilot Spaces · Idea to App with Spark · Idea to Merge with the Copilot App
 
 **Parked:** [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) (copy exists; Codespaces / Azure DevOps) · org-only Copilot team features until I have access
 
