@@ -5,23 +5,23 @@ What I have **not** finished yet, and what I am running next.
 This is a personal queue for [GitHub Skills](https://learn.github.com/skills/) exercises. It is not a study plan for any exam or credential.
 
 **Account notes:** GitHub Pro · Codespaces quota exhausted — prefer browser or local clone  
-**Active catalog:** 40 · **Finished:** 32 · **In progress:** 1 · **Not started:** 7  
-**Last updated:** 27 August 2026 (logged Copilot agent mode)
+**Active catalog:** 40 · **Finished:** 33 · **In progress:** 1 · **Not started:** 6  
+**Last updated:** 28 August 2026 (logged Modernize legacy code)
 
 ```mermaid
 flowchart LR
-    subgraph done [Finished — 32]
+    subgraph done [Finished — 33]
         G[Git and GitHub ×8]
         S[Security ×6]
         A[Actions ×8]
         P[Pages and Codespaces ×2]
-        C[Copilot and agents ×8]
+        C[Copilot and agents ×9]
     end
-    subgraph next [Next — local editor]
-        MO[Modernize legacy code]
+    subgraph next [Next — public Actions]
+        WA[Workflow artifacts]
     end
     subgraph later [Later or parked]
-        QA[Actions leftovers]
+        QA[Ship with quality]
         AI[Other Copilot labs]
         PR[Parked access or quota]
     end
@@ -33,20 +33,20 @@ flowchart LR
 
 ## Next
 
-**[Modernize your legacy code with GitHub Copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot)** — not started · **local editor, skip Codespaces** · official write-up: under 30 minutes
+**[Workflow artifacts](https://github.com/skills/workflow-artifacts)** — not started · public repo · under one hour
 
 | | |
 |:--|:--|
-| Official course | https://github.com/skills/modernize-your-legacy-code-with-github-copilot |
-| One-click public copy | [Create `skills-modernize-your-legacy-code-with-github-copilot`](https://github.com/new?template_owner=skills&template_name=modernize-your-legacy-code-with-github-copilot&owner=%40me&name=skills-modernize-your-legacy-code-with-github-copilot&description=Exercise:+Modernize+Your+Legacy+Code+with+GitHub+Copilot&visibility=public) |
-| Prerequisite I already finished | [Getting started with GitHub Copilot](https://github.com/blackhebrewisraeli/skills-getting-started-with-github-copilot) |
-| What this one covers | Explain legacy code, sketch data flow, generate modern snippets with Copilot, replace and test |
+| Official course | https://github.com/skills/workflow-artifacts |
+| One-click public copy | [Create `skills-workflow-artifacts`](https://github.com/new?template_owner=skills&template_name=workflow-artifacts&owner=%40me&name=skills-workflow-artifacts&description=Exercise:+Work+with+Workflow+Artifacts&visibility=public) |
+| Prerequisites I already finished | [Hello GitHub Actions](https://github.com/blackhebrewisraeli/skills-hello-github-actions) · [Test with Actions](https://github.com/blackhebrewisraeli/skills-test-with-actions) |
+| What this one covers | Upload coverage and HTML reports as artifacts, reuse a build artifact in a later job, download across workflows, optional environment approval gate |
 
 **How I will run it**
 
-1. Open the one-click public copy link above (keep the repo **public**).
+1. Open the one-click public copy link above (keep the repo **public** so Actions minutes stay off the private quota).
 2. Wait ~20 seconds, then open **Issues** and refresh until Step 1 appears.
-3. If the course offers Codespaces, clone locally and use the editor I already have.
+3. Stay in the browser / local clone. Skip Codespaces.
 4. Work the steps Mona posts; close them as they complete.
 5. When the last issue closes, tell the log to mark this finished.
 
@@ -60,8 +60,7 @@ Do not start a second leftover course until this copy is finished (or log it the
 
 | Course | Status | Track |
 |:-------|:-------|:------|
-| [Modernize your legacy code with GitHub Copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started · **Next** | Copilot |
-| [Workflow artifacts](https://github.com/skills/workflow-artifacts) | Not started | Actions |
+| [Workflow artifacts](https://github.com/skills/workflow-artifacts) | Not started · **Next** | Actions |
 | [Ship with quality](https://github.com/skills/ship-with-quality) | Not started | Actions |
 | [Idea to Merge with the Copilot App](https://github.com/skills/idea-to-merge-with-the-copilot-app) | Not started | Copilot App |
 
@@ -91,7 +90,7 @@ Full table: [CATALOG.md](CATALOG.md). Short list:
 - **Security (6):** Repository Management, Supply Chain, Secret Scanning, CodeQL, CodeQL language matrix, Secure Code Game
 - **Actions (8):** Hello Actions, Test with Actions, Reusable Workflows, JavaScript Actions, Docker images, Deploy to Azure, AI in Actions, AI-powered Actions
 - **Publishing (2 extra):** Codespaces, GitHub Pages *(Deploy to Azure counted under Actions)*
-- **Copilot / agents (8):** Getting started with Copilot, Copilot CLI, MCP + Copilot, Agent orchestration, Agentic workflows that read the room, Copilot code review, Customize Copilot, Copilot agent mode
+- **Copilot / agents (9):** Getting started with Copilot, Copilot CLI, MCP + Copilot, Agent orchestration, Agentic workflows that read the room, Copilot code review, Customize Copilot, Copilot agent mode, Modernize legacy code
 
 ---
 
@@ -116,7 +115,7 @@ These are environment reminders, not courses:
 
 - Prefer **public** practice repos so Actions, CodeQL, and secret scanning behave the way the exercise expects on an individual Pro account.
 - Private-repo Actions count against the monthly minutes on Pro.
-- Do not start a second in-progress copy while Modernize legacy code is still open, unless I also log it in [CATALOG.md](CATALOG.md) the same day.
+- Do not start a second in-progress copy while Workflow artifacts is still open, unless I also log it in [CATALOG.md](CATALOG.md) the same day.
 
 ---
 
@@ -127,10 +126,10 @@ Next
 [x] Copilot code review
 [x] Customize Copilot experience
 [x] Build applications with Copilot agent mode
-[ ] Modernize legacy code with Copilot
+[x] Modernize legacy code with Copilot
+[ ] Workflow artifacts
 
 Actions leftovers
-[ ] Workflow artifacts
 [ ] Ship with quality
 
 Copilot leftovers I can start without extra products

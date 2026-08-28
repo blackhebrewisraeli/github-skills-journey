@@ -81,8 +81,9 @@ I have finished exercises that walked through:
 - Asking Copilot to review code in the editor and on pull requests, adding review instructions, and turning on automatic PR reviews with repository rulesets
 - Writing repo-wide and file/folder custom instructions, plus agent skills and custom agents so Copilot follows project standards
 - Using Copilot agent mode to generate a multi-tier app (presentation, logic, data) from natural-language requirements
+- Walking a COBOL-style student-account app: explain the current code, sketch data flow, generate modern Node snippets with Copilot, replace the old code, and test
 
-**Finished in:** Getting Started with GitHub Copilot · Create Applications with the Copilot CLI · Integrate MCP with Copilot · Agent Orchestration · Agentic Workflows That Read the Room · Copilot Code Review · Customize Your GitHub Copilot Experience · Build Applications with Copilot Agent Mode
+**Finished in:** Getting Started with GitHub Copilot · Create Applications with the Copilot CLI · Integrate MCP with Copilot · Agent Orchestration · Agentic Workflows That Read the Room · Copilot Code Review · Customize Your GitHub Copilot Experience · Build Applications with Copilot Agent Mode · Modernize Your Legacy Code with GitHub Copilot
 
 ---
 
@@ -96,14 +97,13 @@ These are gaps in *this log*, not a claim that I have never touched the product.
 |:------|:------------------|:---------------------|
 | Assigning issues to Copilot coding agent | [Expand your team with Copilot](https://github.com/skills/expand-your-team-with-copilot) | Parked — usually needs team / org access |
 | Copilot Spaces as shared project context | [Scale institutional knowledge using Copilot Spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Parked — product access |
-| Refactoring legacy code with Copilot | [Modernize your legacy code with GitHub Copilot](https://github.com/skills/modernize-your-legacy-code-with-github-copilot) | Not started. **Next.** |
 | Idea → PR inside the Copilot App | [Idea to Merge with the Copilot App](https://github.com/skills/idea-to-merge-with-the-copilot-app) | Not started |
 
 ### Actions I have not finished
 
 | Topic | Course still open |
 |:------|:------------------|
-| Upload, preview, download, and reuse workflow artifacts | [Workflow artifacts](https://github.com/skills/workflow-artifacts) |
+| Upload, preview, download, and reuse workflow artifacts | [Workflow artifacts](https://github.com/skills/workflow-artifacts) · **Next** |
 | Automated quality signals, coverage, and required checks on PRs | [Ship with quality](https://github.com/skills/ship-with-quality) |
 
 I already practiced *running tests in CI* (`test-with-actions`). Ship with quality is the leftover “quality gate / coverage / checks” lab, not a repeat of Hello Actions.
