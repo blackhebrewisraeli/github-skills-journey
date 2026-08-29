@@ -1,145 +1,51 @@
-# Leftover practice
+# Next
 
-What I have **not** finished yet, and what I am running next.
+Leftover queue only. Finished list: [README.md](README.md) · inventory: [CATALOG.md](CATALOG.md)
 
-This is a personal queue for [GitHub Skills](https://learn.github.com/skills/) exercises. It is not a study plan for any exam or credential.
+**34 / 40 finished** · **6 open** · last logged **29 Aug 2026** (Workflow artifacts)
 
-**Account notes:** GitHub Pro · Codespaces quota exhausted — prefer browser or local clone  
-**Active catalog:** 40 · **Finished:** 33 · **In progress:** 1 · **Not started:** 6  
-**Last updated:** 28 August 2026 (logged Modernize legacy code)
+Codespaces quota is exhausted — browser or local clone.
 
 ```mermaid
 flowchart LR
-    subgraph done [Finished — 33]
-        G[Git and GitHub ×8]
-        S[Security ×6]
-        A[Actions ×8]
-        P[Pages and Codespaces ×2]
-        C[Copilot and agents ×9]
-    end
-    subgraph next [Next — public Actions]
-        WA[Workflow artifacts]
-    end
-    subgraph later [Later or parked]
-        QA[Ship with quality]
-        AI[Other Copilot labs]
-        PR[Parked access or quota]
-    end
-    done --> next
-    next --> later
+    done[Finished 34] --> next[Idea to Merge]
+    next --> parked[5 parked]
 ```
 
 ---
 
-## Next
+## Run this
 
-**[Workflow artifacts](https://github.com/skills/workflow-artifacts)** — not started · public repo · under one hour
+**[Idea to Merge with the Copilot App](https://github.com/skills/idea-to-merge-with-the-copilot-app)** · ~55 min · Copilot App + Node 22 locally
 
 | | |
 |:--|:--|
-| Official course | https://github.com/skills/workflow-artifacts |
-| One-click public copy | [Create `skills-workflow-artifacts`](https://github.com/new?template_owner=skills&template_name=workflow-artifacts&owner=%40me&name=skills-workflow-artifacts&description=Exercise:+Work+with+Workflow+Artifacts&visibility=public) |
-| Prerequisites I already finished | [Hello GitHub Actions](https://github.com/blackhebrewisraeli/skills-hello-github-actions) · [Test with Actions](https://github.com/blackhebrewisraeli/skills-test-with-actions) |
-| What this one covers | Upload coverage and HTML reports as artifacts, reuse a build artifact in a later job, download across workflows, optional environment approval gate |
+| Course | https://github.com/skills/idea-to-merge-with-the-copilot-app |
+| Public copy | [Create `skills-idea-to-merge-with-the-copilot-app`](https://github.com/new?template_owner=skills&template_name=idea-to-merge-with-the-copilot-app&owner=%40me&name=skills-idea-to-merge-with-the-copilot-app&description=Exercise:+Idea+to+Merge+with+the+Copilot+App&visibility=public) |
+| Covers | Issue from a session, `.github/copilot-instructions.md`, agent session → review/merge, browser canvas, editor canvas |
+| Needs | Copilot (Free–Enterprise), **GitHub Copilot App**, Node.js **22.12+** |
 
-**How I will run it**
-
-1. Open the one-click public copy link above (keep the repo **public** so Actions minutes stay off the private quota).
-2. Wait ~20 seconds, then open **Issues** and refresh until Step 1 appears.
-3. Stay in the browser / local clone. Skip Codespaces.
-4. Work the steps Mona posts; close them as they complete.
-5. When the last issue closes, tell the log to mark this finished.
-
-Do not start a second leftover course until this copy is finished (or log it the same day in [CATALOG.md](CATALOG.md)).
+1. Create the public copy.
+2. Wait ~20 seconds → **Issues** → Step 1.
+3. Skip Codespaces.
+4. When Mona closes the last issue, update [CATALOG.md](CATALOG.md) then the dashboard.
 
 ---
 
-## Open queue (everything not finished)
+## Parked
 
-### Ready when I am (no extra product beyond Copilot / public Actions)
+| Course | Why |
+|:--|:--|
+| [Ship with quality](https://github.com/skills/ship-with-quality) | Official note: GitHub Code Quality is **org-only**, not personal accounts |
+| [Expand your team with Copilot](https://github.com/skills/expand-your-team-with-copilot) | Copilot coding agent / usually org or team |
+| [Copilot Spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Product access |
+| [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | Spark preview + paid Copilot tier |
+| [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | [Copy exists](https://github.com/blackhebrewisraeli/skills-migrate-ado-repository). Codespaces + Azure DevOps sample |
 
-| Course | Status | Track |
-|:-------|:-------|:------|
-| [Workflow artifacts](https://github.com/skills/workflow-artifacts) | Not started · **Next** | Actions |
-| [Ship with quality](https://github.com/skills/ship-with-quality) | Not started | Actions |
-| [Idea to Merge with the Copilot App](https://github.com/skills/idea-to-merge-with-the-copilot-app) | Not started | Copilot App |
-
-### Depends on a product or quota I may not have
-
-| Course | Status | Why it is waiting |
-|:-------|:-------|:------------------|
-| [Expand your team with Copilot](https://github.com/skills/expand-your-team-with-copilot) | Not started · Parked | Copilot coding agent / usually org or team access |
-| [Scale institutional knowledge using Copilot Spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Not started · Parked | Copilot Spaces |
-| [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | Not started | Spark has to be available on the account |
-| [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | In progress · Parked | Copy: [skills-migrate-ado-repository](https://github.com/blackhebrewisraeli/skills-migrate-ado-repository). Codespaces and an Azure DevOps sample. Revisit after quota resets if I still want the migration practice. |
-
-### Not queued (official course archived)
-
-| Course | Why it is not leftover practice |
-|:-------|:--------------------------------|
-| [Copilot + Codespaces + VS Code](https://github.com/skills/copilot-codespaces-vscode) | Archived by GitHub |
-| [Your first extension for GitHub Copilot](https://github.com/skills/your-first-extension-for-github-copilot) | Archived by GitHub |
+Archived (not queued): [Copilot + Codespaces](https://github.com/skills/copilot-codespaces-vscode) · [First Copilot extension](https://github.com/skills/your-first-extension-for-github-copilot)
 
 ---
 
-## Already finished (do not re-queue)
+## Any leftover course
 
-Full table: [CATALOG.md](CATALOG.md). Short list:
-
-- **Git & GitHub (8):** Introduction to GitHub, Introduction to Git, Markdown, Review PRs, Connect the Dots, Resolve Merge Conflicts, Change Commit History, Release-based Workflow
-- **Security (6):** Repository Management, Supply Chain, Secret Scanning, CodeQL, CodeQL language matrix, Secure Code Game
-- **Actions (8):** Hello Actions, Test with Actions, Reusable Workflows, JavaScript Actions, Docker images, Deploy to Azure, AI in Actions, AI-powered Actions
-- **Publishing (2 extra):** Codespaces, GitHub Pages *(Deploy to Azure counted under Actions)*
-- **Copilot / agents (9):** Getting started with Copilot, Copilot CLI, MCP + Copilot, Agent orchestration, Agentic workflows that read the room, Copilot code review, Customize Copilot, Copilot agent mode, Modernize legacy code
-
----
-
-## How I run any leftover course
-
-| Step | Action |
-|:----:|:-------|
-| 1 | Open [learn.github.com/skills](https://learn.github.com/skills/) or the `@skills` repo above |
-| 2 | **Use this template** → **Create a new repository** |
-| 3 | Make it **Public** (private-repo Actions minutes are limited) |
-| 4 | Open **Issues** — Step 1 usually appears within ~20 seconds |
-| 5 | Do the work Mona asks (edit, commit, PR) |
-| 6 | When the last step closes, update [CATALOG.md](CATALOG.md), [README.md](README.md), and [KNOWLEDGE.md](KNOWLEDGE.md), then delete the row here |
-
-If the course wants Codespaces: clone locally and use the editor I already have, or skip until quota resets.
-
----
-
-## Working notes that are not “academy leftover”
-
-These are environment reminders, not courses:
-
-- Prefer **public** practice repos so Actions, CodeQL, and secret scanning behave the way the exercise expects on an individual Pro account.
-- Private-repo Actions count against the monthly minutes on Pro.
-- Do not start a second in-progress copy while Workflow artifacts is still open, unless I also log it in [CATALOG.md](CATALOG.md) the same day.
-
----
-
-## Checklist I copy from when I sit down to practice
-
-```
-Next
-[x] Copilot code review
-[x] Customize Copilot experience
-[x] Build applications with Copilot agent mode
-[x] Modernize legacy code with Copilot
-[ ] Workflow artifacts
-
-Actions leftovers
-[ ] Ship with quality
-
-Copilot leftovers I can start without extra products
-[ ] Idea to Merge with the Copilot App
-
-Waiting on access or quota
-[ ] Expand team with Copilot
-[ ] Copilot Spaces
-[ ] Idea to App with Spark
-[ ] Migrate ADO repository       (copy already exists)
-```
-
-<sub>Personal queue · see finished work in [README.md](README.md) · <a href="https://github.com/blackhebrewisraeli">@blackhebrewisraeli</a></sub>
+Public template → wait for Mona in **Issues** → finish steps → update catalog + dashboard. Private-repo Actions burn Pro minutes.

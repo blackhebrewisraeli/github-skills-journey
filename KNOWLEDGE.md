@@ -1,134 +1,71 @@
-# Knowledge practiced (and not practiced yet)
+# Knowledge map
 
-This page is a study map, not a skill endorsement.
+What finished exercises made me **do**, versus what is still open. Not a credential.
 
-- **Practiced** means I completed a GitHub Skills exercise that made me *do* that work in a real repository.
-- **Not practiced yet** means I do not have a finished exercise for it in this log.
-- Nothing here is a credential, exam domain, or official “you know this” stamp.
-
-For the course-by-course checklist, use [CATALOG.md](CATALOG.md).
+```mermaid
+mindmap
+  root((Practiced))
+    Git
+      CLI clone commit push
+      Amend rebase squash
+      Merge conflicts
+      Releases and tags
+    Collaboration
+      Markdown
+      PR review
+      Cross-links
+      Repo settings
+    Security
+      Dependabot
+      Secret scanning
+      CodeQL
+      Vuln patterns
+    Actions
+      Workflows and CI
+      JS actions
+      Reusable workflows
+      Docker publish
+      Azure deploy
+      Models in Actions
+      Artifacts
+    Publish
+      Pages
+      Codespaces
+    Copilot
+      Chat and inline
+      CLI
+      MCP
+      Agents
+      Code review
+      Custom instructions
+      Agent mode apps
+      Legacy COBOL to Node
+```
 
 ---
 
 ## Practiced
 
-### Git on the command line and on GitHub
-
-I have finished exercises that walked through:
-
-- Creating a repository, branches, commits, and pull requests on GitHub
-- Cloning, staging, committing, and pushing from the CLI
-- Amending commits, interactive rebase, squashing, and reordering history
-- Why merge conflicts appear, how the markers read, and resolving them in the GitHub UI / editor
-- Tagging versions and cutting a release-based workflow
-
-**Finished in:** Introduction to GitHub · Introduction to Git · Change Commit History · Resolve Merge Conflicts · Release-based Workflow
-
-### Collaboration on GitHub
-
-I have finished exercises that walked through:
-
-- Writing issues, PRs, and docs in Markdown (headings, lists, links, tables, code)
-- Assigning reviewers, commenting, suggesting changes, approving, and merging
-- Cross-linking issues, pull requests, and commits so the history is navigable
-- Repository settings that support a healthier project: access, branch protection, templates / labels / similar project-hygiene features
-
-**Finished in:** Communicate using Markdown · Review Pull Requests · Connect the Dots · Introduction to Repository Management
-
-### Publishing and cloud-adjacent shipping
-
-I have finished exercises that walked through:
-
-- Publishing a site from a repository with GitHub Pages
-- Opening a Codespaces environment from a repo (done earlier; quota is now exhausted)
-- Deploying an app to Azure from GitHub Actions
-
-**Finished in:** GitHub Pages · Code with Codespaces · Deploy to Azure
-
-### Actions and automation
-
-I have finished exercises that walked through:
-
-- Workflow files, event triggers, jobs, and steps
-- Running tests in CI and using workflow status as a signal
-- Calling a reusable workflow from another workflow
-- Writing a custom JavaScript Action (`action.yml`, inputs / outputs)
-- Building and publishing a Docker image from Actions
-- Calling models from Actions (AI in Actions, AI-powered JavaScript Actions)
-
-**Finished in:** Hello GitHub Actions · Test with Actions · Reusable Workflows · Write JavaScript Actions · Publish Docker Images · AI in Actions · Create AI-Powered Actions · Deploy to Azure
-
-### Security features I actually turned on or played
-
-I have finished exercises that walked through:
-
-- Dependabot and the dependency graph; seeing and patching vulnerable dependencies
-- Secret scanning: finding plaintext credentials and the response path
-- CodeQL code scanning, then a language matrix for more than one language
-- A game-style pass over common vulnerability patterns (injection, XSS, path traversal, and similar)
-
-**Finished in:** Secure your Repository Supply Chain · Introduction to Secret Scanning · Introduction to CodeQL · Configure CodeQL Language Matrix · Secure Code Game
-
-### Copilot and agents I have actually run
-
-I have finished exercises that walked through:
-
-- Copilot inline suggestions and chat in the editor
-- Talking to Copilot from the CLI to scaffold a small app
-- Attaching an MCP server to Copilot
-- Coordinating more than one agent on a shared task
-- Standing up an agentic workflow (the “read the room” lab)
-- Asking Copilot to review code in the editor and on pull requests, adding review instructions, and turning on automatic PR reviews with repository rulesets
-- Writing repo-wide and file/folder custom instructions, plus agent skills and custom agents so Copilot follows project standards
-- Using Copilot agent mode to generate a multi-tier app (presentation, logic, data) from natural-language requirements
-- Walking a COBOL-style student-account app: explain the current code, sketch data flow, generate modern Node snippets with Copilot, replace the old code, and test
-
-**Finished in:** Getting Started with GitHub Copilot · Create Applications with the Copilot CLI · Integrate MCP with Copilot · Agent Orchestration · Agentic Workflows That Read the Room · Copilot Code Review · Customize Your GitHub Copilot Experience · Build Applications with Copilot Agent Mode · Modernize Your Legacy Code with GitHub Copilot
+| Area | What I actually did | In |
+|:--|:--|:--|
+| Git | Repo, branch, commit, PR; CLI clone/stage/push; amend, rebase, squash; conflict markers; tags and releases | Intro GitHub · Intro Git · Change history · Conflicts · Release workflow |
+| Collaboration | Markdown in issues/docs; review comments/suggestions; cross-links; access and branch protection | Markdown · Review PRs · Connect the dots · Repo management |
+| Security | Dependabot; secret scanning; CodeQL + language matrix; common vuln patterns | Supply chain · Secret scanning · CodeQL · CodeQL matrix · Secure Code Game |
+| Actions | First workflow; tests in CI; reusable workflows; JS actions; Docker publish; Azure deploy; models in Actions; **upload/preview/reuse workflow artifacts** | Hello Actions · Test with Actions · Reusable · JS actions · Docker · Azure · AI in Actions · AI-powered actions · **Workflow artifacts** |
+| Publish | GitHub Pages site; Codespaces (quota now exhausted) | Pages · Codespaces |
+| Copilot | Inline + chat; CLI scaffold; MCP; multi-agent; agentic workflow; PR review + rulesets; custom instructions / skills / agents; agent-mode multi-tier app; COBOL → Node modernization | Getting started · Copilot CLI · MCP · Orchestration · Agentic workflows · Code review · Customize · Agent mode · Modernize |
 
 ---
 
 ## Not practiced yet
 
-These are gaps in *this log*, not a claim that I have never touched the product.
+| Gap | Course | Blocker |
+|:--|:--|:--|
+| Copilot App: idea → session → merged PR | [Idea to Merge](https://github.com/skills/idea-to-merge-with-the-copilot-app) | **Next** — Copilot App + Node 22 locally |
+| Quality gates, coverage thresholds, rulesets | [Ship with quality](https://github.com/skills/ship-with-quality) | Parked — GitHub Code Quality is **org-only**, not personal accounts |
+| Assign issues to Copilot coding agent | [Expand your team](https://github.com/skills/expand-your-team-with-copilot) | Parked — usually team / org |
+| Copilot Spaces | [Spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Parked — product access |
+| Spark natural-language apps | [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | Parked — Spark preview + paid Copilot |
+| ADO → GitHub CLI migrate | [Migrate ADO](https://github.com/skills/migrate-ado-repository) | Parked — copy exists; Codespaces / ADO |
 
-### Copilot I have not finished
-
-| Topic | Course still open | Why it is still open |
-|:------|:------------------|:---------------------|
-| Assigning issues to Copilot coding agent | [Expand your team with Copilot](https://github.com/skills/expand-your-team-with-copilot) | Parked — usually needs team / org access |
-| Copilot Spaces as shared project context | [Scale institutional knowledge using Copilot Spaces](https://github.com/skills/scale-institutional-knowledge-using-copilot-spaces) | Parked — product access |
-| Idea → PR inside the Copilot App | [Idea to Merge with the Copilot App](https://github.com/skills/idea-to-merge-with-the-copilot-app) | Not started |
-
-### Actions I have not finished
-
-| Topic | Course still open |
-|:------|:------------------|
-| Upload, preview, download, and reuse workflow artifacts | [Workflow artifacts](https://github.com/skills/workflow-artifacts) · **Next** |
-| Automated quality signals, coverage, and required checks on PRs | [Ship with quality](https://github.com/skills/ship-with-quality) |
-
-I already practiced *running tests in CI* (`test-with-actions`). Ship with quality is the leftover “quality gate / coverage / checks” lab, not a repeat of Hello Actions.
-
-### Product labs I have not finished
-
-| Topic | Course still open | Notes |
-|:------|:------------------|:------|
-| Natural-language app generation with Spark | [Idea to App with Spark](https://github.com/skills/idea-to-app-with-spark) | Only if Spark is on the account |
-| Azure DevOps → GitHub migration with the CLI | [Migrate ADO repository](https://github.com/skills/migrate-ado-repository) | Copy exists; parked (Codespaces / ADO) |
-
-### Retired official courses (not a knowledge gap I am chasing)
-
-GitHub archived:
-
-- Copilot + Codespaces + VS Code
-- Your first extension for GitHub Copilot
-
-I am not treating those as leftover academy practice. See [CATALOG.md](CATALOG.md).
-
----
-
-## How I read this page
-
-- A finished exercise is **practice**, not proof I would do the same task unaided in a production repo.
-- Several finished security and Actions labs were done on **public** copies so Features that need a public repo would actually run.
-- Codespaces is practiced once; I am not repeating Codespaces-heavy labs until quota returns.
-- When I finish the next course, add one short bullet under **Practiced** and delete the matching row under **Not practiced yet**.
+Archived (not chasing): Copilot + Codespaces · first Copilot extension. See [CATALOG.md](CATALOG.md).
